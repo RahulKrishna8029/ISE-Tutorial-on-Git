@@ -1,0 +1,2 @@
+##New git file test
+#Master change is reflected
