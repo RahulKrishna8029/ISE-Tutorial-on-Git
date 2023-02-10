@@ -1,0 +1,1047 @@
+,Issue Number,Issue Title,Issue Label,Issue state,Issue Body,Issue Comments
+1,977,chore: renaming rawIndex to desiredIndex,[],open,Renamed `insert` second parameter using a more descriptive name.,[]
+2,976,Bump json5 from 1.0.1 to 1.0.2,"[Label(name=""dependencies"")]",open,"Bumps [json5](https://github.com/json5/json5) from 1.0.1 to 1.0.2.
+<details>
+<summary>Release notes</summary>
+<p><em>Sourced from <a href=""https://github.com/json5/json5/releases"">json5's releases</a>.</em></p>
+<blockquote>
+<h2>v1.0.2</h2>
+<ul>
+<li>Fix: Properties with the name <code>__proto__</code> are added to objects and arrays. (<a href=""https://github-redirect.dependabot.com/json5/json5/issues/199"">#199</a>) This also fixes a prototype pollution vulnerability reported by Jonathan Gregson! (<a href=""https://github-redirect.dependabot.com/json5/json5/issues/295"">#295</a>). This has been backported to v1. (<a href=""https://github-redirect.dependabot.com/json5/json5/issues/298"">#298</a>)</li>
+</ul>
+</blockquote>
+</details>
+<details>
+<summary>Changelog</summary>
+<p><em>Sourced from <a href=""https://github.com/json5/json5/blob/main/CHANGELOG.md"">json5's changelog</a>.</em></p>
+<blockquote>
+<h3>Unreleased [<a href=""https://github.com/json5/json5/tree/main"">code</a>, <a href=""https://github.com/json5/json5/compare/v2.2.3...HEAD"">diff</a>]</h3>
+<h3>v2.2.3 [<a href=""https://github.com/json5/json5/tree/v2.2.3"">code</a>, <a href=""https://github.com/json5/json5/compare/v2.2.2...v2.2.3"">diff</a>]</h3>
+<ul>
+<li>Fix: json5@2.2.3 is now the 'latest' release according to npm instead of
+v1.0.2. (<a href=""https://github-redirect.dependabot.com/json5/json5/issues/299"">#299</a>)</li>
+</ul>
+<h3>v2.2.2 [<a href=""https://github.com/json5/json5/tree/v2.2.2"">code</a>, <a href=""https://github.com/json5/json5/compare/v2.2.1...v2.2.2"">diff</a>]</h3>
+<ul>
+<li>Fix: Properties with the name <code>__proto__</code> are added to objects and arrays.
+(<a href=""https://github-redirect.dependabot.com/json5/json5/issues/199"">#199</a>) This also fixes a prototype pollution vulnerability reported by
+Jonathan Gregson! (<a href=""https://github-redirect.dependabot.com/json5/json5/issues/295"">#295</a>).</li>
+</ul>
+<h3>v2.2.1 [<a href=""https://github.com/json5/json5/tree/v2.2.1"">code</a>, <a href=""https://github.com/json5/json5/compare/v2.2.0...v2.2.1"">diff</a>]</h3>
+<ul>
+<li>Fix: Removed dependence on minimist to patch CVE-2021-44906. (<a href=""https://github-redirect.dependabot.com/json5/json5/issues/266"">#266</a>)</li>
+</ul>
+<h3>v2.2.0 [<a href=""https://github.com/json5/json5/tree/v2.2.0"">code</a>, <a href=""https://github.com/json5/json5/compare/v2.1.3...v2.2.0"">diff</a>]</h3>
+<ul>
+<li>New: Accurate and documented TypeScript declarations are now included. There
+is no need to install <code>@types/json5</code>. (<a href=""https://github-redirect.dependabot.com/json5/json5/issues/236"">#236</a>, <a href=""https://github-redirect.dependabot.com/json5/json5/issues/244"">#244</a>)</li>
+</ul>
+<h3>v2.1.3 [<a href=""https://github.com/json5/json5/tree/v2.1.3"">code</a>, <a href=""https://github.com/json5/json5/compare/v2.1.2...v2.1.3"">diff</a>]</h3>
+<ul>
+<li>Fix: An out of memory bug when parsing numbers has been fixed. (<a href=""https://github-redirect.dependabot.com/json5/json5/issues/228"">#228</a>,
+<a href=""https://github-redirect.dependabot.com/json5/json5/issues/229"">#229</a>)</li>
+</ul>
+<h3>v2.1.2 [<a href=""https://github.com/json5/json5/tree/v2.1.2"">code</a>, <a href=""https://github.com/json5/json5/compare/v2.1.1...v2.1.2"">diff</a>]</h3>
+<!-- raw HTML omitted -->
+</blockquote>
+<p>... (truncated)</p>
+</details>
+<details>
+<summary>Commits</summary>
+<ul>
+<li><a href=""https://github.com/json5/json5/commit/a62db1e51e1031d92ac260f5bb38bbed1fdbc754""><code>a62db1e</code></a> 1.0.2</li>
+<li><a href=""https://github.com/json5/json5/commit/e0c23fe458a77c0b2cdb271376be5d8d0908133c""><code>e0c23fe</code></a> docs: update CHANGELOG for v1.0.2</li>
+<li><a href=""https://github.com/json5/json5/commit/62a65408408d40aeea14c7869ed327acead12972""><code>62a6540</code></a> fix: add <strong>proto</strong> to objects and arrays</li>
+<li>See full diff in <a href=""https://github.com/json5/json5/compare/v1.0.1...v1.0.2"">compare view</a></li>
+</ul>
+</details>
+<br />
+
+
+[![Dependabot compatibility score](https://dependabot-badges.githubapp.com/badges/compatibility_score?dependency-name=json5&package-manager=npm_and_yarn&previous-version=1.0.1&new-version=1.0.2)](https://docs.github.com/en/github/managing-security-vulnerabilities/about-dependabot-security-updates#about-compatibility-scores)
+
+Dependabot will resolve any conflicts with this PR as long as you don't alter it yourself. You can also trigger a rebase manually by commenting `@dependabot rebase`.
+
+[//]: # (dependabot-automerge-start)
+[//]: # (dependabot-automerge-end)
+
+---
+
+<details>
+<summary>Dependabot commands and options</summary>
+<br />
+
+You can trigger Dependabot actions by commenting on this PR:
+- `@dependabot rebase` will rebase this PR
+- `@dependabot recreate` will recreate this PR, overwriting any edits that have been made to it
+- `@dependabot merge` will merge this PR after your CI passes on it
+- `@dependabot squash and merge` will squash and merge this PR after your CI passes on it
+- `@dependabot cancel merge` will cancel a previously requested merge and block automerging
+- `@dependabot reopen` will reopen this PR if it is closed
+- `@dependabot close` will close this PR and stop Dependabot recreating it. You can achieve the same result by closing it manually
+- `@dependabot ignore this major version` will close this PR and stop Dependabot creating any more for this major version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this minor version` will close this PR and stop Dependabot creating any more for this minor version (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot ignore this dependency` will close this PR and stop Dependabot creating any more for this dependency (unless you reopen the PR or upgrade to it yourself)
+- `@dependabot use these labels` will set the current labels as the default for future PRs for this repo and language
+- `@dependabot use these reviewers` will set the current reviewers as the default for future PRs for this repo and language
+- `@dependabot use these assignees` will set the current assignees as the default for future PRs for this repo and language
+- `@dependabot use this milestone` will set the current milestone as the default for future PRs for this repo and language
+
+You can disable automated security fix PRs for this repo from the [Security Alerts page](https://github.com/trekhleb/javascript-algorithms/network/alerts).
+
+</details>",[]
+3,974,Suggested an additional LCS,[],open,I've added a new resource to this repository that I feel would be helpful for learners and this problem is solved using a dynamic programming approach.,[]
+4,973,Added a useful resource,[],open,"Adding a helpful link that discusses data structure in detail, I hope you will like this as it will add value to your repository and readers. Thank you.",[]
+5,972,year update,[],open,Updated the year to the current year in Licence,[]
+6,971,Add Spanish translation,[],open,,[]
+7,966,Update README.md,[],open,Fixed some typos on README.,[]
+8,962,Update factorial.js,[],open,your function makes an infinite loop,[]
+9,960,Eu realmente não entendi,[],open,"Sou iniciante nessa área de programação e recentemente estou pesquisando/aprendendo sobre JavaScript/CSS/HTML, porém recentemente estou tendo um grande problema em um cod que era parar ser uma calculadora (bem básico, eu sei), porém o resultado simplesmente não sai e eu não encontro onde errei.
+CODIGO:
+[test.txt](https://github.com/trekhleb/javascript-algorithms/files/10035387/test.txt)
+",['@Hirasawa-San Ja tem 24 dias e niguem respondeu voce ja conseguiu entender algo? Qualquer coisa me avisa te adiciono num discord aqui']
+10,959,Update README.ar-AR.md,[],open,fixing the arabic grammer and a typo,[]
+11,958,code translation,[],open,I want to translate the code to my language through the comments,['Hello Everyone \r\n']
+12,955,Eslint parsing error,[],open,"I'm facing ""src\data-structures\queue\README.md
+  1:1  error  Parsing error: Unexpected character '#' "" error.
+I'm on the windows platform and tried to ignore .md files adding
+ {
+  ""eslintIgnore"" : [""**/*.md""],
+} propety to eslintIgnore file.  am still facing the same issue. How to resolve this?",[]
+13,952,update the ES README a lenguage correction,[],open,"This change is not much but i put the correct way that Fibonacci sequence is written in Spanish, i know that because i live in spain and i am a student and here we call it ""Sucesión de Fibonacci""",[]
+14,949,Create cycleSort.js ,[],open,"This program is of Cycle Sort Algorithm in JavaScript. I admit that I am the coder of this program, so there would be no plagiarism.",[]
+15,945,Added tree-sort algorithm,[],open,,[]
+16,944,Skip list implementation,[],open,#827,[]
+17,939,read-black-tree,[],open,,"['let tree = new RedBlackTree();\r\ntree.insert(5);\r\ntree.insert(10);\r\ntree.insert(8);\r\nAt this time, the parent pointer of 10 is null;   ', 'let tree = new RedBlackTree(1);\r\ntree.insert(5);\r\ntree.insert(10);\r\ntree.insert(8);\r\nAt this time, the parent pointer of 10 is null;']"
+18,938,Huffman Coding Using Greedy Algorithm,[],open,,[]
+19,935,Update readme 2,[],open,#880 ,['Branch out of date. Update and re-submit.']
+20,931,Add CombSort,[],open,CombSort is a quite good algorithm. It improves BubbleSort using the gap instead of just swapping neighbors.,"['I know this PR is not mergeable, but I  implemented CombSort so check it out: https://github.com/trekhleb/javascript-algorithms/pull/932']"
+21,929,Persian trans,[],open,#907 ,[]
+22,928,Translation,[],open,Simplified Chinese translation of binary search tree,[]
+23,924,new algorithm that move the array to left according the numbers of po…,[],open,added new algorithm based on array rotation,[]
+24,923,Bfs typo,[],open,fix for #564,[]
+25,922,Add exponential search,[],open,,[]
+26,921,update-readme,[],open,fixes typo in line 280 of readme.md ,[]
+27,920,Create a Cocktail Shaker Sort Algorithm,[],open,"This is my first attempt of the Cocktail Shaker Sort Algorithm, feel free to check and improve it.",[]
+28,918,Create a Manhattan Distance Calculation Formula,[],open,"This is the first attempt of the Manhattan Distance Formula, feel free to update it.",[]
+29,917,Create a median formula,[],open,"This is the first attempt of the Median Formula, feel free to update it.",[]
+30,916,Fix BUG in graph reverse method & Add needed tests,[],open,"This PR fix the issue in #873.
+
+The issue was in the old reverse method, edges reversed one by one and this was making issue for graphs with cycle of length 2. For example, when graph with only two edges AB and BA was reversing, on reversing AB, BA was exist and there will be crash.",[]
+31,911,Set Euler diagrams ,[],open,"I forked this repository and made some tuning. Among others, [Euler diagrams](https://en.wikipedia.org/wiki/Euler_diagram) are very useful for multiple use cases. May I do a pull request? The source code is below to consult.
+
+https://github.com/dot-quiver/quivero-api/blob/e10da7587ffc77434a2d49a40c15d515a641176b/utils/arrays/arrays.js#L496
+
+",[]
+32,910,Timsort branch,[],open,"Added TimSort for issue https://github.com/trekhleb/javascript-algorithms/issues/202
+
+Added Timsort, Test for Timsort and README.md in english language",[]
+33,907,Persian Language,[],open,Can I help you with the Persian translation?,[]
+34,905,Added Extended Euclidean Algorithm,[],open,"While the Euclidean algorithm calculates only the greatest common divisor (GCD) of two integers a and b, the extended version also finds a way to represent GCD in terms of a and b, i.e. coefficients x and y for which: a * x + b * y  = gcd(a, b). This is extremely useful in the application of the chinese remainder theorem and calculating modular inverses.",[]
+35,904,Update README.md by correcting Turkish lang name,[],open,"""Türk"" is like ""German [people]"" and the language itself is actually ""Türkçe"", like in ""Turkish"" or ""Turkish langauge"".",[]
+36,903,corrected the faulty website for quick sort,[],open,Added change for issue https://github.com/trekhleb/javascript-algorithms/issues/881,[]
+37,901,Contributing to translations to Portuguese,[],open,Translate one sentence to Portuguese and fix understanding from an already translated sentence,[]
+38,898,Readme in Bengali,[],open,readme file isn't fully translated to Bengali but I'll finish translation soon.,[]
+39,897,Add indonesian translation of caesar chiper algorithm,[],open,,[]
+40,895,Fix @throws documentation tag,[],open,"This PR suggests to fix a typo in a doc tag.
+
+Please review.",[]
+41,894,Add translate for Palindrome.,[],open,,[]
+42,893,Add es-ES translation to search/binary-search,[],open,,[]
+43,892,Better `isPowerOfTwo` algos and files,[],open,"Closes #889.
+
+The bitwise approach isn't mathematically correct, because it only works for 32bit ints, therefore it should be exclusive to the `math/bits` directory.
+
+I also added info about the supported input args for both the trial division approach and the bitwise approach",['Now the non-bitwise fn supports `BigInt`s']
+44,891,Update breadthFirstSearch.js,[],open,,[' na']
+45,890,Improve readability,[],open,Signed-off-by: Ryan Russell <ryanrussell@users.noreply.github.com>,[]
+46,889,`isPowerOfTwo` algos don't specify their ranges,[],open,"Neither the README nor the src files explicitly say that the bitwise approach is only correct for 32bit ints. The way it's worded implies that the bitwise approach is always better, but the ""naive"" approach is the most mathematically correct, it even handles `NaN` and `Infinity` correctly! Why isn't there a clarification?","['@Rudxain I want to fix this issue can you assign it to me ..... ', '> Can you assign it to me\r\n\r\nI don\'t have any authority to do that lol. You could open a PR and write ""Fixes #889"" or ""Closes #889"" to auto-close this Issue if it gets merged', ""Wait I realized there's a *bigger* Issue. The bitwise `isPowerOfTwo` is **duped**, an instance is in the math/bits folder, and the other in math/is-power-of-two. This makes no sense. The bitwise variant isn't mathematical, it should be exclusively located in the `bits` directory, not directly within `math`. I'm gonna open a PR"", ""@Yash-Var  I've already opened a PR. If you want to contribute you can send PRs to my fork, or open an independent PR that solves this Issue in a different way""]"
+47,887,Incorrect use of conjunction.,[],open,,[]
+48,886,add unit test for interpolationSearch.js,[],open,"Here is the report:
+https://docs.google.com/document/d/188vsDiq5C8d0sqrqgrdbt4NxzM9vvWLQc6UaFKQPczQ/edit","['您好,我已经收到您的信。', '本座正在渡劫，有事请留言......']"
+49,885,Translated to  Chinese and fixed several mistakes about linked list files,[],open,"I thought the descriptions of the early and postscript in the pseudocode also needed to be translated, so I did. 
+I also fixed a logic error in the doubly linked list pseudocode.",[]
+50,883,Does the eulerian-path find all possible cycles?,[],open,"It appears the `hamiltonian-cycle` module finds all possible cycles. Does the eulerian path module find all possible cycles, or just one? If not, how would you modify it to find all possible cycles? I would like to try and redo [this Hamiltonian cycle de Bruijn sequence finder](https://stackoverflow.com/a/71957347/169992) using Eulerian paths instead :). Thank you for all your work on this!",[]
+51,881,Quick sort in place reference link takes me to weird site,[],open,"https://github.com/trekhleb/javascript-algorithms/blob/cb7afe18ef003995d8e23cc0b179ee7e37e8a19e/src/algorithms/sorting/quick-sort/QuickSortInPlace.js#L7
+
+The link is connected to weird gamble site. It needs to replace.",['I can take this issue.']
+52,880,[Typo] README.md ,[],open,"In line 280 of the README.md it says `In case if linting or testing is failing`
+It should say `In case of linting or testing is failing`
+[README.md](https://github.com/trekhleb/javascript-algorithms/files/8516112/README.md)
+","[""I'd like to be of help can I be assigned this?"", 'I made a PR regarding this, https://github.com/trekhleb/javascript-algorithms/pull/888']"
+53,873,[BUG] Strongly connected components function breaks when adding edges on opposite directions,[],open,"Computing strongly connected components fails when adding edges in opposite direction. Minimal example:
+
+```js      
+        const vertexA = new GraphVertex('A');
+        const vertexB = new GraphVertex('B');
+        const vertexC = new GraphVertex('C');
+        const vertexD = new GraphVertex('D');
+
+        const edgeAB = new GraphEdge(vertexA, vertexB);
+        const edgeBA = new GraphEdge(vertexB, vertexA);
+        const edgeBC = new GraphEdge(vertexB, vertexC);
+        const edgeCA = new GraphEdge(vertexC, vertexA);
+        const edgeCD = new GraphEdge(vertexC, vertexD);
+
+        const graph = new Graph(true);
+
+        graph
+            .addEdge(edgeAB)
+            .addEdge(edgeBA)
+            .addEdge(edgeBC)
+            .addEdge(edgeCA)
+            .addEdge(edgeCD);
+
+        const components = stronglyConnectedComponents(graph);
+```
+Gives the following output: 
+
+```
+Uncaught Error: Edge has already been added before
+    at Graph.addEdge (Graph.js:74:1)
+    at Graph.js:149:1
+```","[""I think this error is for reverse function in graph. Because as written [here](https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/graph/Graph.js#L139), edges reverse one by one and for example if we have both AB and BA edges, on reversing AB, BA will be exist and cause error.\r\n\r\nI'm going to create a PR and fix this issue."", '@trekhleb, Would you please take a look at this?']"
+54,872,npm package(s),[],open,"Hi Trekhleb,
+
+I took the liberty to clone your initiative and publish a npm package with my own modifications. Some are application-oriented, others are puristic and extends your prior work. Feel free to comment and evaluate. Most of my modifications regards the Graph data-structure. What do you think of publishing either one or several npm packages and create a trust-worthy package bundle?
+
+I also noticed you are a great fan of geeksforgeeks.org/ :-)
+
+Best regards",['Take [this](https://en.wikipedia.org/wiki/Glossary_of_graph_theory). It is dangerous outside.']
+55,871,Swap,[],open,Closes #314,[]
+56,870,Add minimax algorithm,[],open,Closes #566,[]
+57,869,Add Chinese Translation,[],open,,[]
+58,868,Your project has been added to a list of copyfree works.,[],open,"http://copyfree.org/resources/works#JavaScript%20Algorithms%20and%20Data%20Structures
+
+Please let me know if there are inaccuracies to be corrected or improvements to
+be made in the listing, including suggestions for changes to the list of tags
+associated with your project's entry.
+",['good job']
+59,867,Add Markov Chain or Markov Process algorithm,[],open,"Wikipedia: https://en.wikipedia.org/wiki/Markov_chain
+
+Implementations:
+
+* Random pronounceable words generator
+  Example in coffee-script (8 years old) here: https://github.com/SyntaxColoring/Markov-Word-Generator/tree/Markov.coffee
+
+* Random sentence generator
+  Example in ruby/python (7 years old) here: https://github.com/hrs/markov-sentence-generator","['This sounds interesting, can I be assigned this?']"
+60,866,pictures in algo and data structures not visible on the default github dark theme,[],open,"<img width=""777"" alt=""image"" src=""https://user-images.githubusercontent.com/91960848/155171657-1a93a26d-3820-48ee-b042-51aa1b68c59c.png"">
+
+I'm probably not the first one to notice it, but it is quite hard to distinguish them from the background.
+","['My suggestion would be to append #gh-dark-mode-only and #gh-light-mode-only parameters at the end of the image. Problem is I am not sure about where to host the additional dark mode picture, as the regular one for the light mode is from wikimedia storage']"
+61,863,Replace deprecated String.prototype.substr(),[],open,"[String.prototype.substr()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substr) is deprecated so we replace it with [String.prototype.slice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice) which works similarily but isn't deprecated.
+.substr() probably isn't going away anytime soon but the change is trivial so it doesn't hurt to do it.",[]
+62,859,Add README.zh-CN.md,[],open,,"['您好,我已经收到您的信。']"
+63,858,npm该更新了 它老了呀,[],open,"
+<img width=""788"" alt=""q1"" src=""https://user-images.githubusercontent.com/20763416/153137654-e3d14997-b98f-49f1-881a-42a8ab4cbe18.png"">
+","['算法會老嗎？', '思想永不过时']"
+64,857,"Data structures
+",[],open,,['unwanted issue\r\n']
+65,850,Fix typos README.es-ES for linked list,[],open,"In the `README.es-ES.md` file to explain the linked list, there were many typos in the description of the algorithm.",[]
+66,846,Tweaked get function of HashTable,[],open,"In case of key on present in table, now don't need to be compute hash for that key, then check corresponding list from bucket for that hash that key is present instead now agent will return expected undefined once there is no hash value present at fast lookup keys object",[]
+67,845,Linked list swap added,[],open,ran lint and test with no issues,[]
+68,844,Index methods ll,[],open,"Hi, I created the algorithms for removing, accessing, and modifying at an specific linked-list indexes for the issue #835 . I tried my best to replicate the code strucutre of other functions and created test cases for all my methods.",[]
+69,835,"Inserting, removing, accessing, modifying, by index, on linked list",[],open,"```
+Insert(head, index, value)
+Pre: head is the head node in the list
+Post: the list at the new index is the value; all items in the list are shifted up one index (trivial in a linked list).
+
+Remove(head, index)
+Pre: head is the head node in the list
+Post: the item at the index is returned; all items after that index are shifted down one index (trivial in a linked list).
+
+Get(head, index)
+Pre: head is the head node in the list
+Post: the item at the index is returned.
+
+Set(head, index, value)
+Pre: head is the head node in the list
+Post: the previous item at the index is returned; the index now holds the new value
+```
+
+
+These seem like important features to be in a list. Should we add these? (Also, I'm kinda new to contributing; should these 4 functions be separate issues, or are they related enough that they make sense as one issue?)","['Hi @willow-iam, I decided to work on the Linked-Lists functions you asked for.\r\n\r\nI created this pull request to learn more about open source for a Intro to software Engineering course I am taking. This is my first open source contribution so I hope it gets accepted! \r\n\r\nI created functions for remove (deleteAtIndex), get (findByIndex) and set (setAtIndex). I did not create the insert function as that is already an existing function for linked-lists. \r\n\r\nI also created test cases for all of these functions to ensure they work optimally and correctly!']"
+70,832,feat:linked list add new method,[],open,"traverse linked list is easy but uninteresting. You must add new variable and use while.So why not add a method to return a iterator.Then we can use for of to traverse. eg:
+```js
+getIterator() {
+    const _this = this
+    return {
+      *[Symbol.iterator]() {
+        let currentNode = _this.head
+        if (!currentNode) yield node
+        while (currentNode) {
+          yield currentNode.value
+          currentNode = currentNode.next
+        }
+      }
+    }
+  }
+```
+
+
+use
+```js
+const iter = linkedList.getIterator()
+for(const item of iter){
+ console.log(item)
+} 
+```",[]
+71,830,Provide possible paths from A to B in a directed graph,[],open,"Hi,
+
+I would like to know if you have an algorithm to find all possible paths (cyclic or acyclic) in a directed graph from certain node A to B. Although both depth and breadth search are on the folder '/src/algorithms/graph/', I must have certain creativity to extract the routes by given callback function. 
+
+I really appreciate the work you have done here.
+
+Best regards,
+Bruno P.","[""The list could easily be infinite for a simple `A <-> B`. You'd need to define the problem better."", 'A first step would be to find all possible cycles in a graph. How: A first approach is to depth-search from an origin node: If one of the neighbors to current node belongs to the current route, persist the cycle in a list and backtrack it, removing from LocalPathList;\r\n\r\nA second step is to go along a route with inbetween cycles: every cycle may be traversed only once along the same route.\r\n\r\nExample: Given a graph with adjacency matrix given by object {\'A\': [\'B\'], \'B"": [\'C\'], \'C\': [\'D\', \'E\', \'F\'], \'D\': [], \'E\': [\'B\'], \'F\': [\'B\']}, the possible paths from A to D must be [\'ABCD\', \'ABCEBD\', \'ABCFBD\'].\r\n\r\n\r\n\r\n']"
+72,827,Implement new Data Structure: SkipList,[],open,"https://en.wikipedia.org/wiki/Skip_list
+
+I learned about this data structure in my distributed systems class. Could we add it to the project?","[""Sure, I'm gonna take a crack at this!"", 'I want to take this  i can fix \r\n', ""i still want to do this eventually but I haven't had time yet, so i guess you can go for it""]"
+73,814,Add factorialBigInt,[],open,Non-recursive factorial function for BigInt data type.,[]
+74,813,Add factorialRecursiveTCOBigInt (Tail Call Optimized),[],open,Tail Call Optimized factorial function for BigInt data type.,[]
+75,812,Add factorialRecursiveTCO (Tail Call Optimized),[],open,,"['This is interesting, I wonder how you test this, since its dependent on the JS engine?\r\n\r\nE.g. Chrome doesn\'t seem to support this: https://chromestatus.com/feature/5516876633341952\r\n\r\nDebugger with stack trace:\r\n\r\n![image](https://user-images.githubusercontent.com/5236548/145709227-9f0854ac-40ac-42ac-8b15-642bdc83c2aa.png)\r\n\r\nWith the code: \r\n```js\r\nfunction factorialRecursiveTCO(number) {\r\n  function fact(number, accumulator = 1) {\r\n    console.log(""fact"", number);\r\n    debugger;\r\n    if (number < 2)\r\n      return accumulator;\r\n    else\r\n      return fact(number - 1, accumulator * number);\r\n  }\r\n  console.log(""factorialRecursiveTCO"", number);\r\n  return fact(number);\r\n}\r\nfactorialRecursiveTCO(10)\r\n```']"
+76,803,The second explanation of the Caesar code is that I don't know how to do it,[],open,,[]
+77,784,explanation updated,[],open,,[]
+78,783,Doing Interpolation with FFT in JavaScript efficiency for hard polynomials problems,[],open,,[]
+79,781,Improved performances of trialDivision algorithm in primality test,[],open,"I improved the performances of trialDivision by performing fewer checks, while still using the same overall idea of the algorithm.",[]
+80,761,Splaytree,[],open,,[]
+81,760,added pancake sort,[],open,"Closes #748 
+
+As mentioned in the issue #748 , I have added pancake sorting algorithm and have successfully written and passed the tests as well . 
+
+
+![open source](https://user-images.githubusercontent.com/41481913/131378196-edd888dc-66b6-4d4f-ac70-6003b69cc936.png)
+
+
+I request you to approve my PR . ",[]
+82,759,Merkle tree added with implementation and documentation,[],open,"A Merkle tree is a data structure that is used in computer science applications. In bitcoin and other cryptocurrencies​, Merkle trees serve to encode blockchain data more efficiently and securely.
+
+Currently, their main uses are in peer-to-peer networks such as Tor, Bitcoin, and Git.",[]
+83,757,Error: node-canvas was built without JPEG support,[],open,"This error occurd when I was running the file
+> src/algorithms/image-processing/seam-carving/__tests__/resizeImageWidth.test.js
+
+```
+at Object.<anonymous> (~/javascript-algorithms-master/src/algorithms/image-processing/seam-carving/__tests__/resizeImageWidth.test.js:45:7)
+```
+
+```javascript
+
+describe('resizeImageWidth', () => {
+  it('should perform content-aware image width reduction', () => {
+    // @see: https://jestjs.io/docs/asynchronous
+    return Promise.all([
+      loadImage(testImageBeforePath), // ERROR at this line !!!
+      loadImage(testImageAfterPath),
+    ]).then(([imgBefore, imgAfter]) => {
+      // Original image.
+      // ...
+    });
+  });
+});
+
+```
+Do I need to reinstall canvas?",[]
+84,748,Pancake sort,[],open,"# [pancake sorting](https://en.wikipedia.org/wiki/Pancake_sorting)
+
+I see this not in [sorting directory](https://github.com/trekhleb/javascript-algorithms/tree/cf61af59c532ad180fd9b65a21a11e88413e6ebc/src/algorithms/sorting).
+
+I can work on this.","['@ShahAnuj2610 is this issue still open ? can i work on this ? I am looking for my first open source contribution ! ', 'Yes\n\nGet Outlook for Android<https://aka.ms/AAb9ysg>\n________________________________\nFrom: Vasanth Kumar ***@***.***>\nSent: Sunday, August 22, 2021 10:19:50 PM\nTo: trekhleb/javascript-algorithms ***@***.***>\nCc: Subscribed ***@***.***>\nSubject: Re: [trekhleb/javascript-algorithms] Pancake sort (#748)\n\n\n@ShahAnuj2610<https://github.com/ShahAnuj2610> is this issue still open ? can i work on this ? I am looking for my first open source contribution !\n\n—\nYou are receiving this because you are subscribed to this thread.\nReply to this email directly, view it on GitHub<https://github.com/trekhleb/javascript-algorithms/issues/748#issuecomment-903430502>, or unsubscribe<https://github.com/notifications/unsubscribe-auth/ABP2P6FG4DB5MS7A5KQ3EELT6HD6NANCNFSM5BVMQFGQ>.\nTriage notifications on the go with GitHub Mobile for iOS<https://apps.apple.com/app/apple-store/id1477376905?ct=notification-email&mt=8&pt=524675> or Android<https://play.google.com/store/apps/details?id=com.github.android&utm_campaign=notification-email>.\n', ""Hi @ShahAnuj2610\r\nI'm look for projects to contribute them related to frontend or M L  and also is this issue still open ??""]"
+85,728,Use the playground in a browser,[],open,"Hi 👋,
+
+I created a branch in my fork at [mikenikles/javascript-algorithms](https://github.com/mikenikles/javascript-algorithms/tree/configure-gitpod) where I configured [Gitpod](https://www.gitpod.io).
+
+It allows anyone to click a button in the `README.md` to start an ephemeral development environment with VS Code and a terminal running in the browser.
+
+This helps lower the barrier for people to look at the algorithm code in a familiar environment and saves time following the ""How to use this repository"" instructions locally.
+
+You can experience the end result based on my branch by clicking the following button:
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/mikenikles/javascript-algorithms/tree/configure-gitpod)
+
+If this is of interest, please let me know and I will open a PR.
+
+Cheers,
+
+Mike",[]
+86,727,Comment - fast Walsh Hadamard transform,[],open,"You could include the fast Walsh Hadamard transform since it's kind of easy and has a number of uses:
+[https://ai462qqq.blogspot.com/](url)",[]
+87,709,perf: improve heap remove,[],open,,[]
+88,701,Bosnian Language translation,[],open,I've just started to translate version for Bosnian language README.bs-BA.md,[]
+89,696,Make README.ar-AR.md `rtl`,[],open,"I have made arabic paragraphs directed from right to left, but kept some parts ltr such as cli command and time complexity table.",[]
+90,692,Bit Reversal missing?,[],open,"Something along the lines of:
+
+```
+function bitReverse(num){
+        var result = 0;
+        for (var i = 0; i < 8; i++) {
+	        result = result * 2 + (num % 2);
+	        num = Math.floor(num / 2);
+        }
+       return result;
+}
+
+var bitReverseLookup = function() {
+	var lookup=[];
+	for(var n=0; n<256; n++) {
+		lookup[n] = bitReverse(n);
+	}
+	return lookup;
+}();
+```
+",['Hi i am a fresher looking for some opensource contribution can u help me out i want to contribute to your project and can u assign me this issue:)']
+91,689,Doing Interpolation with FFT in jscript efficiency for hard polynomials problems ,[],open,,[]
+92,682,Hotfix/range error #590,[],open,"Possible solution for issue #590 , which involves negative power values in the fastPowering algorithm.",[]
+93,675,images are not visible in dark mode,[],open,"images are not visible if the github dark mode is enable
+
+![image](https://user-images.githubusercontent.com/8420386/112955307-eaf6e580-915c-11eb-86da-96fc9301acc6.png)
+","['Is this issue can be assign?\r\n', 'HI, this is duplicate of https://github.com/trekhleb/javascript-algorithms/issues/656 :) ', 'Welcome to github @izabela-grzeskowiak-allegro ']"
+94,671,error while condition in Simplified Chinese Code,[],open,"src/data-structures/doubly-linked-list/README.zh-CN.md
+
+remove function
+
+`while n = ø and value !== n.value` should be `while n != ø and value !== n.value`",['为什么']
+95,657,Future Browser-Based Web Demo for Algorithms?,[],open,"Hi,
+
+I was wondering if any of the maintainers have considered creating a webpage for all of the demos? I searched through the issues but didn't find anything related.
+
+Personally I think if you have a web version of all demos it would be of great benefit for developers so they could test the algorithms directly in a browser and step through the code if desired. I'm aware that a developer can step through the code using a debugger with Node, however if there was a website it would lower the barrier since there is nothing to install. Additionally you could run Carbon ads or something which can help with sponsorship of this project.
+
+Since modern browsers support `import` and other needed JS I would expect all or most algorithms to work out of the box for most browsers. I pulled a fork and create a small proof of concept to test.
+
+**Three files added for Demo**
+* `index.html`
+* `favicon.ico`
+* `server.js`
+
+**Additional Changes**
+* The demo shows `QuickSort` and `BubbleSort`; in order to work with GitHub Pages I modified 3 files to use full file name `import Sort from '../Sort.js';` instead of `import Sort from '../Sort';`
+
+**Notes**
+* This runs from GitHub pages simply by adding the `index.html` file (and optional `favicon.ico` file) and modifying needed JS files for full file name on import.
+* The file `server.js` is a simple Node Web Server for sending static files using using only Node.js built-in features without any outside dependencies. If you have node you run the site locally using `node server.js`. I created the `server.js` for another project I maintain and made slight changes so it could handle `import '.../File'` for this project.
+
+**Fork**
+https://github.com/ConradSollitt/javascript-algorithms
+
+**Demo**
+https://conradsollitt.github.io/javascript-algorithms/
+",[]
+96,656,Hard to view some images or diagrams in GitHub's Dark Mode,[],open,"As I am using dark mode in GitHub, I came across at least a couple of diagrams that were not compatible with dark mode, making it difficult to understand the diagram or even see that the diagram is there in the first place.
+
+Some examples are:
+
+**Doubly Linked List**
+![image](https://user-images.githubusercontent.com/42565209/108980710-ef942e00-76c6-11eb-8d2a-f496e58c9c9c.png)
+
+**Hash Table**
+![image](https://user-images.githubusercontent.com/42565209/108980758-fde24a00-76c6-11eb-86e0-a789599ec2e2.png)
+
+I believe the problem is due to the images (or SVG file) here being transparent and it would most likely be fixed by adding a white background to the image. I have not checked all the files but there could be more of such images/diagrams.
+
+Though it's a small issue, I just thought I could bring it up as I haven't seen anyone else report this issue.","['Hey there, I am interested in helping out with this issue. Where should i start?']"
+97,655,Maybe there are some redundent code in Doubly-Linked-List,[],open,"```js
+    reverse() {
+        let node = this.head,
+            previous = null,
+            next = null;
+
+        while (node) {
+            next = node.next;
+            console.log(previous?.value);
+            previous = node.previous;
+            console.log(previous?.value);
+            node.next = previous;            
+            node.previous = next;
+
+            previous = node;
+            node = next;
+        }
+        this.tail = this.head;
+        this.head = previous;
+        return this;
+    }
+```
+I think the code `previous = node.previous;` in while loop is redundent code. I try this code and the previous.vaule always get a same value.",[]
+98,650,improve simplified Chinese translation,[],open,"The old translation is a little difficult to understand.
+And there are some mis about the Chinese punctuator.",[]
+99,641,Fix for issue: Wrong array representation in Heap README.md #640,[],open,"I have fixed the [issue](https://github.com/trekhleb/javascript-algorithms/issues/640) regarding the array representation of HEAP. Kindly review. 
+Thanks","['looks like they fixed it, see: https://upload.wikimedia.org/wikipedia/commons/3/38/Max-Heap.svg You can close this one :)']"
+100,640,Wrong array representation in Heap README.md,[],open,"![image](https://user-images.githubusercontent.com/17434488/107847159-60933600-6de9-11eb-97db-7abca0a9793a.png)
+
+in the array the node with value 3 has two children (2, 7), the correct parent of (2,7) should be 17 instead","['I would like to work on this issue. ', 'It is updated.', 'Is this issue still open?', 'this was fixed already at Wikipedia.']"
+101,638,Update Graph.test.js,[],open,"Thanks for all the comprehensive tests!
+I was doing TDD for these structures, found a missing part, added here.
+
+To cover the below logic in `Graph class`
+
+```javascript
+  deleteEdge(edge) {
+    // omit
+
+    const start = this.getVertexByKey(edge.startVertex.getKey());
+    const end = this.getVertexByKey(edge.endVertex.getKey());
+
+    start.deleteEdge(edge);
+    end.deleteEdge(edge);
+  }
+```",[]
+102,626,add background color in markdown image using html,[],open,"add background color for images in the markdown file for better visibility while using dark mode. I added background color using html in readme.md of linked list, I will change remaining file upon your approval. 
+Thanks,
+Parthiban P
+
+",[]
+103,620,"Issue #314, removed the unnecessary temp variable in shellSort.js.",[],open,,"['hi\r\n', 'Hie\n\nOn Sun, Jan 10, 2021, 9:08 AM Nishi Agrawal <notifications@github.com>\nwrote:\n\n> hi\n>\n> —\n> You are receiving this because you are subscribed to this thread.\n> Reply to this email directly, view it on GitHub\n> <https://github.com/trekhleb/javascript-algorithms/pull/620#issuecomment-757428776>,\n> or unsubscribe\n> <https://github.com/notifications/unsubscribe-auth/ALVPVVKBH3AXHYCXGFVRSV3SZFHADANCNFSM4VPFWXEQ>\n> .\n>\n', 'Hi']"
+104,619,Can we have a CONTRIBUTING GUIDELINES section in the readme of this repo? It would make it easier for the beginners to follow and contribute. ,[],open,,[]
+105,616,Add Matrix Chain Multiplication in DP,[],open,"In the dynamic programming section, we could add the Matrix Chain Multiplication problem which is quite famous to find the most efficient way to multiply matrices together. The problem is not actually to perform the multiplications, but merely to decide in which order to perform the multiplications.
+",[]
+106,610,Optimize Insertion Sort,[],open,I optimized the Insertion Sort by replacing the Linear Search method with the Binary Search method. in this way we have much fewer comparisons therefore the performance of the algorithm enhances significantly for a large amount of data;,"[""That's great idea to move forward"", 'Merge to create new ways']"
+107,609,Added Floyd's Tortoise and Hare algorithm,[],open,"I have added Floyd's cycle-finding algorithm, also known as the tortoise and the hare algorithm. It is used for finding a cycle in a linked list. I also wanted to add an image demonstrating the algorithm, but I couldn't find one.",[]
+108,606,Add Tim Sort,[],open,I implemented the Tim Sort. I tried to keep it in the same fashion as other sorting algorithms as much as possible. I even used the source code of insertion sort in order to make the code better to understand. The reason I used the reference method for insertion sort and merging over allocating a new memory is nothing but optimization.,[]
+109,605,Develop:  Add tim sort,[],open,I implemented the Tim Sort. I tried to keep it in the same fashion as other sorting algorithms as much as possible. I even used the source code of insertion sort in order to make the code better to understand. The reason I used the reference method for insertion sort and merging over allocating a new memory is nothing but optimization. ,[]
+110,604,Add Bucket Sort,[],open,"bucket sort added.
+test coverage: 100%","['Found a typo in README.md\r\ncomrator -> comparator', '> Found a typo in README.md\r\n> comrator -> comparator\r\n\r\nFixed! Thank you!']"
+111,596,fix: implementing Pearson Hashing in Hash Table (#529),[],open,"ref #529
+
+The test coverage failed because test case is not covering a local variable inside a function.
+I am not sure if it is a good idea to test the line coverage in this case.
+Any suggestion to fix this problem?",[]
+112,593,Optimize Insertion Sort,[],open,,"[""I don't get the advantage of this change.\r\nYou can swap the elements when compare the elements, why go through the list again?"", ""> I don't get the advantage of this change.\r\n> You can swap the elements when compare the elements, why go through the list again?\r\n\r\nConsider we want to insert 5-th element (value = 2) in correct place in this list:\r\n**1**, **3**, **4**, **5**, **6**, _2_, 8, 9, 7 --> **1**, _2_, **3**, **4**, **5**, **6**, 8, 9, 7\r\n\r\nIn pervious algorithm, we had to swap 4 times, (6, 2) and (5, 2) and (4, 2) and (3, 2). Since each swap needs assignment 2 times as least, we'll have variable assignment 8 times in minimum. In general, if we need swaps k times, we'll have 2 * k assignments.\r\n\r\nBut in new algorithm in same condition, we shift 3, 4, 5 and 6 then insert 2 in correct index. then we'll have k + 2 assignments which is better than 2 * k"", ""> > I don't get the advantage of this change.\r\n> > You can swap the elements when compare the elements, why go through the list again?\r\n> \r\n> Consider we want to insert 5-th element (value = 2) in correct place in this list:\r\n> **1**, **3**, **4**, **5**, **6**, _2_, 8, 9, 7 --> **1**, _2_, **3**, **4**, **5**, **6**, 8, 9, 7\r\n> \r\n> In pervious algorithm, we had to swap 4 times, (6, 2) and (5, 2) and (4, 2) and (3, 2). Since each swap needs assignment 2 times as least, we'll have variable assignment 8 times in minimum. In general, if we need swaps k times, we'll have 2 * k assignments.\r\n> \r\n> But in new algorithm in same condition, we shift 3, 4, 5 and 6 then insert 2 in correct index. then we'll have k + 2 assignments which is better than 2 * k\r\n\r\n@AryanAhadinia  Thanks for your explaination. \r\nHow about this version to avoid the 2 * k assignments also avoid going through the k elements again?\r\n\r\n```\r\n  sort(originalArray) {\r\n    const array = [...originalArray];\r\n\r\n    // Go through all array elements...\r\n    for (let i = 0; i < array.length; i += 1) {\r\n      let currentIndex = i;\r\n      let tmp = array[i];\r\n\r\n      // Call visiting callback.\r\n      this.callbacks.visitingCallback(array[i]);\r\n\r\n      // Go and check if previous elements and greater then current one.\r\n      // If this is the case then swap that elements.\r\n      while (\r\n        currentIndex > 0\r\n        && this.comparator.lessThan(array[currentIndex], array[currentIndex - 1])\r\n      ) {\r\n        // Call visiting callback.\r\n        this.callbacks.visitingCallback(array[currentIndex - 1]);\r\n\r\n        // Swap the elements.\r\n        array[currentIndex] = array[currentIndex - 1];\r\n\r\n        // Shift current index left.\r\n        currentIndex -= 1;\r\n      }\r\n\r\n      array[currentIndex] = tmp;\r\n    }\r\n\r\n    return array;\r\n  }\r\n```"", ""Yes, it is correct I think, I'll work on this and I'll commit changes ASAP."", ""> > > I don't get the advantage of this change.\r\n> > > You can swap the elements when compare the elements, why go through the list again?\r\n> > \r\n> > \r\n> > Consider we want to insert 5-th element (value = 2) in correct place in this list:\r\n> > **1**, **3**, **4**, **5**, **6**, _2_, 8, 9, 7 --> **1**, _2_, **3**, **4**, **5**, **6**, 8, 9, 7\r\n> > In pervious algorithm, we had to swap 4 times, (6, 2) and (5, 2) and (4, 2) and (3, 2). Since each swap needs assignment 2 times as least, we'll have variable assignment 8 times in minimum. In general, if we need swaps k times, we'll have 2 * k assignments.\r\n> > But in new algorithm in same condition, we shift 3, 4, 5 and 6 then insert 2 in correct index. then we'll have k + 2 assignments which is better than 2 * k\r\n> \r\n> @AryanAhadinia Thanks for your explaination.\r\n> How about this version to avoid the 2 * k assignments also avoid going through the k elements again?\r\n> \r\n> ```\r\n>   sort(originalArray) {\r\n>     const array = [...originalArray];\r\n> \r\n>     // Go through all array elements...\r\n>     for (let i = 0; i < array.length; i += 1) {\r\n>       let currentIndex = i;\r\n>       let tmp = array[i];\r\n> \r\n>       // Call visiting callback.\r\n>       this.callbacks.visitingCallback(array[i]);\r\n> \r\n>       // Go and check if previous elements and greater then current one.\r\n>       // If this is the case then swap that elements.\r\n>       while (\r\n>         currentIndex > 0\r\n>         && this.comparator.lessThan(array[currentIndex], array[currentIndex - 1])\r\n>       ) {\r\n>         // Call visiting callback.\r\n>         this.callbacks.visitingCallback(array[currentIndex - 1]);\r\n> \r\n>         // Swap the elements.\r\n>         array[currentIndex] = array[currentIndex - 1];\r\n> \r\n>         // Shift current index left.\r\n>         currentIndex -= 1;\r\n>       }\r\n> \r\n>       array[currentIndex] = tmp;\r\n>     }\r\n> \r\n>     return array;\r\n>   }\r\n> ```\r\n\r\nActually, there is a little mistake in this code, I'll correct this and commit in few seconds."", 'Now it is optimized!']"
+113,591,added the condition to handle negative integers for fastPowering algorithm.,[],open,"Issue:
+
+Error:RangeError: Maximum call stack size exceeded #590
+
+I have edited the fastpowering algorithm to handle negative integers and the test file to check the negative integers condition.","['How about checking for power equals 1, \r\nthis can avoid from calculate fastPowering(base, 1) = fastPowering(base, 0) * fastPowering(base, 0) * base everytimes.\r\n\r\n```\r\nif (power === 0) {\r\n  // Anything that is raised to the power of zero is 1.\r\n  return 1;\r\n}\r\n\r\nif (power === 1) {\r\n  return base;\r\n}\r\n\r\n.\r\n.\r\n.\r\n\r\n```']"
+114,590,Error:RangeError: Maximum call stack size exceeded,[],open,"Issue of the description:
+
+When using negative integers for base and power getting the below error:
+
+**RangeError: Maximum call stack size exceeded**
+    at fastPowering (C:\Users\techn\Music\react-interview\testapp\app.js:17:23)
+    at fastPowering (C:\Users\techn\Music\react-interview\testapp\app.js:34:22)
+    at fastPowering (C:\Users\techn\Music\react-interview\testapp\app.js:34:22)
+    at fastPowering (C:\Users\techn\Music\react-interview\testapp\app.js:34:22)
+    at fastPowering (C:\Users\techn\Music\react-interview\testapp\app.js:34:22)
+    at fastPowering (C:\Users\techn\Music\react-interview\testapp\app.js:34:22)
+    at fastPowering (C:\Users\techn\Music\react-interview\testapp\app.js:34:22)
+    at fastPowering (C:\Users\techn\Music\react-interview\testapp\app.js:34:22)
+    at fastPowering (C:\Users\techn\Music\react-interview\testapp\app.js:34:22)
+    at fastPowering (C:\Users\techn\Music\react-interview\testapp\app.js:34:22)
+
+fastPowering(5,-5);
+fastPowering(-5,5);
+
+`https://github.com/trekhleb/javascript-algorithms/blob/master/src/algorithms/math/fast-powering/fastPowering.js`
+
+It can be resolved by adding the below if statement to the code.
+
+` if(power<0){
+      power=power*-1;
+      base=1/base;
+     // console.log(base);
+      fastPowering(base,power);
+  }`
+
+Can I open a pull request to work on this?
+",[]
+115,589,Adding of a method that get the successor of a node inside the birany search tree,[],open,"I have added one file to your repository, this file contains a function which take a number and returns the power of two which is directly greater than the given number. I have also added a test file and a README file.","['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/589?src=pr&el=h1) Report\n> Merging [#589](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/589?src=pr&el=desc) (4917139) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/1b0e27ab86dbae97b99620db3ecacffafd17d98a?el=desc) (1b0e27a) will **not change** coverage.\n> The diff coverage is `100.00%`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/589/graphs/tree.svg?width=650&height=150&src=pr&token=2jOOUBhvZL)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/589?src=pr&el=tree)\n\n```diff\n@@            Coverage Diff            @@\n##            master      #589   +/-   ##\n=========================================\n  Coverage   100.00%   100.00%           \n=========================================\n  Files          153       154    +1     \n  Lines         2645      2649    +4     \n  Branches       438       439    +1     \n=========================================\n+ Hits          2645      2649    +4     \n```\n\n\n| [Impacted Files](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/589?src=pr&el=tree) | Coverage Δ | |\n|---|---|---|\n| [...greater-than-number/powerOfTwoGreaterThanNumber.js](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/589/diff?src=pr&el=tree#diff-c3JjL2FsZ29yaXRobXMvbWF0aC9wb3dlci1vZi10d28tZ3JlYXRlci10aGFuLW51bWJlci9wb3dlck9mVHdvR3JlYXRlclRoYW5OdW1iZXIuanM=) | `100.00% <100.00%> (ø)` | |\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/589?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/589?src=pr&el=footer). Last update [1b0e27a...4917139](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/589?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n', 'How can I complete my checks ?, I remark that I need to do the **continuous integration** but how can I do it ?\r\nThanks', 'To be honest, this looks more like basic logarithm operations for a math class and less like a CS algorithm for this repo. Maybe if the code found the first `1` in the binary representation and cleared bits on the right?', 'For you I should not use the logarithm operation ? because this looks more like the math class ? ', 'I\'m not commenting on the code itself, I\'m commenting on its inclusion in the project which has the usual bunch of CS algorithms. Calculating the ""next power of two"" is just applying the well-known logarithm function. In my opinion, it doesn\'t fit here. But I\'m not the maintainer, just giving my two cents.', 'Ok. I understand that you say. But I wanted to do it because I have another contribution for this repository and which use it, then I have seen better to separate it.\r\n\r\nThis is my first pull request. I am a beginner, I would like to learn about git GitHub and JavaScript.']"
+116,583,Linked List: Define a Cycle,[],open,"With the current Linked List implementation, is there a way to create a cycle?  Meaning, if I have Linked List Nodes
+```
+[ 1, 9, 87, 5, 22]
+```
+can I reference the node at position 2 (value=87) with the tail node's (value-22) `next` property to create a cycle?
+  ","[""That'd be a graph.""]"
+117,568,Linear Search Fix,[],open,Fixes Linear search by adding for loop rather than a forEach,"['I can help with this issue.', 'Can I work on this issue?\r\n', 'I have already added a PR for the same please check.', 'I can resolve this issue at a faster pace & with a better approch', '> I have already added a PR for the same please check.\n\nIf you have this robot or software, please send it to me. This is my WhatsApp number 09050648468', '> I can resolve this issue at a faster pace & with a better approch\n\nPlease send it to me anyway on WhatsApp 09050648468', '> I can help with this issue.\n\nPlease help me and make this for me for free', 'Are you lost?', 'Hey, is this issue still open? I would like to work on it.']"
+118,567,Optimize insertion sort,[],open,,"[""I'm currently working on this."", 'PR #593 has some optimizations.']"
+119,566,Add MiniMax ,[],open,,"['Hey, @Kachhadiyn Can you provide more description about problem??', 'I think @Kachhadiyn means the Tic Tac Toe algorithm.', ""I've never seen it called Tic Tac Toe algorithm. https://en.wikipedia.org/wiki/Minimax"", 'Let me say it another way then: the algorithm used in Tic Tac Toe.\r\nhttps://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-3-tic-tac-toe-ai-finding-optimal-move/', ""Sure, _this specific article you found online_ uses a game of Tic Tac Toe as an example game for the Minimax. Apart from Minimax being a basic algorithm from game theory and Tic Tac Toe being a basic example of a well-known two-player game, there's no link between two algorithms, neither historically (that I'm aware of) nor conceptually. “The algorithm used in Tic Tac Toe” sounds as if the game of Tic Tac Toe (i.e. its ruleset) is somehow tied to the Minimax algorithm, which is not the case."", 'Hi, we are four students working on this issue as part of a course in software development.']"
+120,565,Optimised insertionsort by removing a check,[],open,Closes #564 ,"['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/565?src=pr&el=h1) Report\n> Merging [#565](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/565?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/477f30b0bdac6024874d2976de1eca7afe0176dd?el=desc) will **not change** coverage.\n> The diff coverage is `n/a`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/565/graphs/tree.svg?width=650&height=150&src=pr&token=2jOOUBhvZL)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/565?src=pr&el=tree)\n\n```diff\n@@            Coverage Diff            @@\n##            master      #565   +/-   ##\n=========================================\n  Coverage   100.00%   100.00%           \n=========================================\n  Files          150       150           \n  Lines         2627      2627           \n  Branches       439       439           \n=========================================\n  Hits          2627      2627           \n```\n\n\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/565?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/565?src=pr&el=footer). Last update [477f30b...4576259](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/565?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n']"
+121,564,Fix Typo in BFS Test,[],open,Fixes typo in test case file,[]
+122,561,Fix RedBlackTree rotations,[],open,"leftRightRotation and rightLeftRotation didn't work correctly, so I had some sudden errors afterwards. I found the problem and wrote fixes, tests and comments.
+You can better understand what the problem is on this picture (leftRightRotation): ![leftRightRotation](https://user-images.githubusercontent.com/61697000/95685552-36debe00-0c01-11eb-808a-79673f3c5c28.png).
+For rightLeftRotation it is similar.
+
+Thank you a lot for this cool repo :)","['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/561?src=pr&el=h1) Report\n> Merging [#561](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/561?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/477f30b0bdac6024874d2976de1eca7afe0176dd?el=desc) will **not change** coverage.\n> The diff coverage is `100.00%`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/561/graphs/tree.svg?width=650&height=150&src=pr&token=2jOOUBhvZL)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/561?src=pr&el=tree)\n\n```diff\n@@            Coverage Diff            @@\n##            master      #561   +/-   ##\n=========================================\n  Coverage   100.00%   100.00%           \n=========================================\n  Files          150       150           \n  Lines         2627      2629    +2     \n  Branches       439       439           \n=========================================\n+ Hits          2627      2629    +2     \n```\n\n\n| [Impacted Files](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/561?src=pr&el=tree) | Coverage Δ | |\n|---|---|---|\n| [...ata-structures/tree/red-black-tree/RedBlackTree.js](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/561/diff?src=pr&el=tree#diff-c3JjL2RhdGEtc3RydWN0dXJlcy90cmVlL3JlZC1ibGFjay10cmVlL1JlZEJsYWNrVHJlZS5qcw==) | `100.00% <100.00%> (ø)` | |\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/561?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/561?src=pr&el=footer). Last update [477f30b...1196f9b](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/561?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n']"
+123,560,How can I use this lib with npm or yarn?,[],open,"npm link
+https://www.npmjs.com/package/javascript-algorithms-and-data-structures
+
+I add this lib with yarn
+```
+yarn add javascript-algorithms-and-data-structures
+```
+But I can't use import or require  this lib
+
+o(╥﹏╥)o","[""@ahaoboy What did you want to import this lib for? The documentation states clearly:\r\n\r\n>  Note that this project is meant to be used for learning and researching purposes only and it is not meant to be used for production.\r\n\r\nSo I don't think there is a point in making this package importable/requirable since it's not supposed to be used as a project dependency. Just clone the repository and have some fun :) "", ""> @ahaoboy What did you want to import this lib for? The documentation states clearly:\r\n> \r\n> > Note that this project is meant to be used for learning and researching purposes only and it is not meant to be used for production.\r\n> \r\n> So I don't think there is a point in making this package importable/requirable since it's not supposed to be used as a project dependency. Just clone the repository and have some fun :)\r\n\r\nJust exactly what I wanted to say"", '> npm 链接 https://www.npmjs.com/package/javascript-algorithms-and-data-structures\r\n> \r\n> 我用纱线添加这个库\r\n> \r\n> ```\r\n> yarn add javascript-algorithms-and-data-structures\r\n> ```\r\n> \r\n> 但我不能使用导入或需要这个库\r\n> \r\n> o(╥﹏╥)o\r\n\r\nThis library may help you. https://github.com/ZLY201/js-sdsl']"
+124,559,Add function to insert a node at a given index in a linked list,[],open,,[]
+125,556,Armstrong Number added,[],open,,[]
+126,555,Stable Matching Algorithm,[],open,Add the script for the Gale-Shapley Stable Matching Algorithm.,"['> Add the script for the Gale-Shapley Stable Matching Algorithm.\r\n\r\n#include <stdio.h>\r\n#define SINGLE 0\r\nint main() {\r\n    int t, n;\r\n    scanf(""%d"", &t);                           // number of test cases\r\n    while(t--) {\r\n        scanf(""%d"", &n);\r\n        int mList[n+1][n+1];                   // men\'s preference list\r\n        int wList[n+1][n+1];                   // women\'s preference list\r\n        int manCurrentMatch[n+1];              // current match of men\r\n        int womanCurrentMatch[n+1];            // current match of men\r\n        int manNextProposal[n+1];              // each man will propose this indexed woman in his preference list\r\n\r\n        //taking inputs...\r\n        for (int i = 1; i <= n; i++) {         // for each woman\r\n            womanCurrentMatch[i] = SINGLE;     // set her to be single\r\n            for(int j = 0; j <= n; j++) {\r\n                scanf(""%d"", &wList[i][j]);\r\n            }\r\n        }\r\n\r\n        for (int i = 1; i <= n; i++) {         // for each man\r\n            manCurrentMatch[i] = SINGLE;       // set him to be single\r\n            manNextProposal[i] = 1;            // each man will start by proposing 1st woman in his list\r\n            for(int j = 0; j <= n; j++) {\r\n                scanf(""%d"", &mList[i][j]);\r\n            }\r\n        }\r\n\r\n        //algorithm...\r\n        bool freeManAvailable = true;           // at begining we have free man available\r\n        int m = 1;                              // taking the first man as free for first iteration\r\n        while(freeManAvailable) {\r\n            freeManAvailable = false;\r\n            int w = mList[m][manNextProposal[m]++];  // the woman man proposes\r\n            if(womanCurrentMatch[w] == SINGLE) {\r\n                //w is currently free, engage (m and w)...\r\n                womanCurrentMatch[w] = m;\r\n                manCurrentMatch[m] = w;\r\n            } else {\r\n                //w is engaged...\r\n                bool itsABetterProposal = false;     // check if it\'s a better proposal\r\n                //check her preference list\r\n                for(int y = 1; y <= n; y++) {\r\n                    if(wList[w][y] == womanCurrentMatch[w]) {\r\n                        itsABetterProposal = false; break;\r\n                    }\r\n                    if(wList[w][y] == m) {\r\n                        itsABetterProposal = true; break;\r\n                    }\r\n                }\r\n                if(itsABetterProposal) {\r\n                    // if a better proposal, then engage (m and w), and set w\'s previous partner as free...\r\n                    manCurrentMatch[womanCurrentMatch[w]] = SINGLE;\r\n                    womanCurrentMatch[w] = m;\r\n                    manCurrentMatch[m] = w;\r\n                }\r\n            }\r\n\r\n            //finding a new free man...\r\n            for(int x = 1; x <= n; x++) {\r\n                if(manCurrentMatch[x] == SINGLE) {\r\n                    m = x;\r\n                    freeManAvailable = true;\r\n                    break;\r\n                }\r\n            }\r\n        }\r\n\r\n        //show output...\r\n        for(int i = 1; i <= n;  i++) {\r\n            printf(""%d %d\\n"", i, manCurrentMatch[i]);\r\n        }\r\n    }\r\n\r\n    return 0;\r\n}']"
+127,554, a * search algorithm added,[],open,Added Solution to #550 Add A Star Algorithm.,[]
+128,550,Add A star algorithm ,[],open,"In the graphs algorithm, we could add A star searching algorithm.",[]
+129,546,More detailed instructions on how to run the code for beginners,[],open,"Hi 
+
+I think there should a sample snippet in **playground.js**  to show how  to run the scripts.
+
+i am running it like this
+```javascript
+// Place your playground code here.
+
+import BubbleSort from ""../algorithms/sorting/bubble-sort/BubbleSort""
+
+const b = new BubbleSort()
+const r = b.sort([99, 9, 999])
+console.log(r)
+
+```
+& 
+```
+node --es-module-specifier-resolution=node playground/playground.js
+```
+
+my node version v14.12.0
+
+Pls, let me if this is the right way to test out the scripts in playgroud.
+
+If yes I would also like to update the README.md to mention the same.
+
+Pls let me know your thoughts 
+
+Thanks
+
+ ","['can run on chrome? why no html files? i develop for long itme, but i still avoiding the node. whats node? where the hell is that comand line console i use to see mentioned frequently?  there is no other way??? is that open sourced? ']"
+130,545,finish,[],open,,['Why did you remove the hooks?']
+131,544,"Code misbehavior(mild) : LinkedList.append(), according to code, should add to tail, but actually append to head",[],open,"# How to recreate the problem
+1. Copy the LinkedList.js, LinkedListNode.js, Comparator.js code to the console of Chrome DevTool
+    - Add ```console.log``` to the ```append()``` method.
+2. Add test code
+```javascript
+
+let a = new LinkedList();
+a.append(5)
+a.append(7)
+// In the ```append``` method, it was ```this.tail = newNode```, but in chrome console, 
+// it can be observed that it was added to **head**.
+
+// If I changed the ```this.tail = newNode``` to ```this.head = newNode```, it appended to the **tail**
+
+// If I add some ```console.log``` in the ```append``` method,
+// it could be observed that the class instance is already been changed
+//  before the ```console.log``` was reached(applies even when ```console.log``` is at the start of the ```method```.
+```
+
+# Intention
+- As a beginner, I just want to know why it happened, as far as I know about 'If it is not broke, don't fix it.', I am still interested in what actually happened in JavaScript.
+- My instinct told me it maybe has something to do with mutability, but I am not sure what exactly it is. 
+# Source
+- [Code](https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/linked-list/LinkedList.js)
+    - Line 51 and Line 52
+- [Code](https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/linked-list/LinkedListNode.js)
+- [Comparator Code](https://github.com/trekhleb/javascript-algorithms/blob/07bc4a4b975d7069a69421e7e6ad256ba76b721c/src/utils/comparator/Comparator.js#L1)","[""@zhutoutoutousan sir apologies but i see it correct. once the line a.append(5) gets executed there is nothing in the linkedList so the '5' becomes the head value and then the 7 will be appended so added to the next node's value.\r\n\r\nsee below image, the head has value of 5\r\n\r\n![image](https://user-images.githubusercontent.com/26604711/174726116-e2c0a305-5ffc-4579-91ff-690313ee6a18.png)\r\n\r\njust wanted to understand your view point, may be there is some bug that I am not observing. let me know. I would be very much interested in this""]"
+132,543,Two way binding,[],open,"https://github.com/trekhleb/javascript-algorithms/blob/07bc4a4b975d7069a69421e7e6ad256ba76b721c/src/data-structures/doubly-linked-list/__test__/DoublyLinkedListNode.test.js#L29-L30
+
+If I think about doubly linked list I mean two way binding. Something like this:
+```javascript
+node2.next === node3
+node2.previous === node1
+```
+And then:
+```javascript
+class DoublyLinkedList {
+  constructor(value, prev = null) {
+    this.value = value;
+    this.prev = prev;
+    this.next = null;
+    if (prev !== null) prev.next = this;
+  }
+}
+```
+Or i'm wrong?",['You have error code to a make sure what you have previously!!']
+133,537,Remove extra init loops in lcs,[],open,"Array were initialized with `null` and later first row and column were assigned with value 0.
+but it can be initialized directly with 0.","['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/537?src=pr&el=h1) Report\n> Merging [#537](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/537?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/07bc4a4b975d7069a69421e7e6ad256ba76b721c?el=desc) will **not change** coverage.\n> The diff coverage is `100.00%`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/537/graphs/tree.svg?width=650&height=150&src=pr&token=2jOOUBhvZL)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/537?src=pr&el=tree)\n\n```diff\n@@            Coverage Diff            @@\n##            master      #537   +/-   ##\n=========================================\n  Coverage   100.00%   100.00%           \n=========================================\n  Files          150       150           \n  Lines         2627      2622    -5     \n  Branches       439       439           \n=========================================\n- Hits          2627      2622    -5     \n```\n\n\n| [Impacted Files](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/537?src=pr&el=tree) | Coverage Δ | |\n|---|---|---|\n| [...longest-common-substring/longestCommonSubstring.js](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/537/diff?src=pr&el=tree#diff-c3JjL2FsZ29yaXRobXMvc3RyaW5nL2xvbmdlc3QtY29tbW9uLXN1YnN0cmluZy9sb25nZXN0Q29tbW9uU3Vic3RyaW5nLmpz) | `100.00% <100.00%> (ø)` | |\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/537?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/537?src=pr&el=footer). Last update [07bc4a4...b9a0f56](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/537?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n']"
+134,529,Inefficient Hash Table implementation,[],open,"There is no good reason to publish poorly-performing algorithms, in my opinion. Hash Tables are frequently used in inner loops, so it is important that they run fast.
+
+The hash function used here has much published criticism. It could be replaced by a variant of Pearson Hashing, which runs very quickly and has good statistical properties for avoiding collisions. Note also that careful use of JavaScript datatypes is needed for efficient and fast data storage.","['I am trying to implement the Pearson Hashing.\r\nPlease check PR #596 ', 'The test coverage failed because test case is not covering a local variable inside a function.\r\nI am not sure if it is a good idea to test the line coverage in this case.\r\nAny suggestion to fix this problem?', 'If you are asking me, the author of this suggestion, I have no answer. I am not familiar with the testing system that you are using. If a test case it missing, why not add it? I can answer only questions about the Pearson Hashing algorithm, such as how to extend it beyond its natural limit of 8 bits of key data. I have used Pearson Hashing in real products and find that it performs quite randomly, as desired, producing fewer collisions than more common types of hashing functions.', ""> There is no good reason to publish poorly-performing algorithms, in my opinion. \r\n\r\nThe nature of the repo is to provide implementations for learning. They're not production-ready. That said, I agree that bad solutions shouldn't be here. If a solution is sub-optimal but provides insight into a technique, I think it can remain here under “Basic”, with a clear banner explaining why it's not optimal and where to look further to gain deeper understanding."", ""@David263 Thanks, Because it seems like you have a rich experience in Pearson Hashing algorithm, could you give me some advise about my implementation?\r\nI will generate a 32-bits signed int hash, which is generated by ORing four 8-bits hash, and right shift 1 bit to make sure I get a positive number(the left most bit should be 0).\r\nI am not sure whether it's a good idea to do the right shift, or I should just use an absolute function?"", ""Right shifting can do different things on different hardware. Absolute value produces different bit results on 1's-complement and 2's-complement hardware. For these reasons, it's safer to mask the value using an AND bit operator to clear the sign bit. As to constructing a 31-bit hash, you should use shift and OR operators to move each byte to the proper place in the word. You will probably need a final mask to get the key in the domain of your table, since you probably do not want to devote a full 31 bits of contiguous memory space to the hash buckets (unless your hardware supports sparse arrays). You can find implementations of Pearson hashing for longer word lengths on the Web, when in doubt."", ""@David263 , excellent you are gave me a good point thanks \nI got it some of before a mistake and today memorized where else's has to possible! \nThanks ""]"
+135,527,Creat A site web for both phone and pc,[],open,,['A website for what?']
+136,523,Create different_power_of2.js,[],open,,"['2701gouravgoel:xyz', '2701gouravgoel:xyz']"
+137,521,Setting key-value pairing in a HashTable where that key is already present w/ a different value.,[],open,"When setting a key-value pairing in a HashTable where that key is already present but w/ a different value, the current set function replaces the already present node in the bucket's linked list instead of just appending the new key-value pairing. Let me know if this just by design! ",[]
+138,504,Linear search fix.,[],open,"Make it consistent with the description:
+
+""It sequentially checks each element of the list for the target value until a match is found or until all the elements have been searched.""","['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/504?src=pr&el=h1) Report\n> Merging [#504](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/504?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/ba2d8dc4a8e27659c1420fe52390cb7981df4a94&el=desc) will **not change** coverage.\n> The diff coverage is `100.00%`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/504/graphs/tree.svg?width=650&height=150&src=pr&token=2jOOUBhvZL)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/504?src=pr&el=tree)\n\n```diff\n@@            Coverage Diff            @@\n##            master      #504   +/-   ##\n=========================================\n  Coverage   100.00%   100.00%           \n=========================================\n  Files          149       149           \n  Lines         2612      2611    -1     \n  Branches       434       434           \n=========================================\n- Hits          2612      2611    -1     \n```\n\n\n| [Impacted Files](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/504?src=pr&el=tree) | Coverage Δ | |\n|---|---|---|\n| [...rc/algorithms/search/linear-search/linearSearch.js](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/504/diff?src=pr&el=tree#diff-c3JjL2FsZ29yaXRobXMvc2VhcmNoL2xpbmVhci1zZWFyY2gvbGluZWFyU2VhcmNoLmpz) | `100.00% <100.00%> (ø)` | |\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/504?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/504?src=pr&el=footer). Last update [ba2d8dc...6f351c2](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/504?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n']"
+139,498,Counting Sort optimization,[],open,"Hi devs!
+On the very beginning I want to appreciate your work here, I think it is fantastic and gives a lot of addition to developers knowledge!
+
+But this ticket I want to open to point potential optimization of Counting Sort algorithm.
+
+In the implementation there are is loop by all array elements to find smallest and biggest.
+Next step is creating counting array of size dependent on smallest and biggest.
+And in next step there is one more iteration by all elements to set up counting array.
+
+I am wondering if there could be optimization applied and make all of those in just 1 iteration, moreover there could be used lookup instead of array.
+
+Lets consider this example of array to be sorted:
+`const arrayToSort = [1, 1, 10000, 1, 1, 10000, 10000, 1, 1];`
+When switched to lookup object instead of array we will have small object:
+`{""1"": 6, ""10000"": 3}`
+When using array it will be bigger:
+`[0, 6, 0, 0, 0, 0, ....(a lot of zeros), 10000]`
+
+So finally we could find biggest, smallest and set lookup values in 1 iteration and having lesser memory used.
+
+I prepared example of that:
+*The next difference is that I am preparing algorithm which is mutating original array, but it can be applied here too:
+[example](https://github.com/ohoho7/tytyryty-blog-examples/blob/master/sorting-algorithmes/counting-sort.ts)
+
+Please reply if this make sense to you, I would be more than happy to make MR to your great work!",['I want to work on it.@ohoho7']
+140,491,Feature Request: Introduce an algorithm visualizer,[],open,"I suggest we build a general UI visualizer (I'm suggesting React JS), that displays/compare each algorithms' metrics, peak points, CPU/memory usage, etc
+
+We could start by:
+1. Producing wireframes/mockups for general approval
+2. Discuss the architecture to allow even external algorithms outside this repository
+3. Collating general ideas ",[]
+141,488,Sorting Visualization,[],open,"Hello, I thought why not add a little visualization to each sorting algorithm?
+might add a little knowledge of how the sorting process is done with lots of data.
+like -> https://youtu.be/eqo2LxRADhU?t=1700","['@trekhleb are sorting animations really needed? ', 'I would like to work on this if they add value to this repo.']"
+142,485,AVL remove need recursive from removeNode,[],open,"Add Test:
+it('AvlTree remove node', () => {
+    const tree = new AvlTree();
+
+    tree.insert(9);
+    tree.insert(5);
+    tree.insert(12);
+    tree.insert(3);
+    tree.insert(7);
+    tree.insert(11);
+    tree.insert(13);
+    tree.insert(2);
+    tree.insert(4);
+    tree.insert(6);
+    tree.insert(8);
+    tree.insert(10);
+
+    expect(tree.toString()).toBe('2,3,4,5,6,7,8,9,10,11,12,13');
+    expect(tree.toString2()).toBe('9,5,3,2,4,7,6,8,12,11,10,13'); // toString2 is preOrder
+
+    tree.insert(1);
+    expect(tree.toString2()).toBe('9,5,3,2,1,4,7,6,8,12,11,10,13');
+    tree.insert(0);
+    expect(tree.toString2()).toBe('9,5,3,1,0,2,4,7,6,8,12,11,10,13');
+
+    tree.remove(13);
+    expect(tree.toString2()).toBe('9,5,3,1,0,2,4,7,6,8,12,11,10'); // now
+    expect(tree.toString2()).toBe('5,3,1,0,2,4,9,7,6,8,11,10,12'); // correct
+  });",[]
+143,484,BinaryTreeNode replaceChild didn't set parent current,[],open,"should use setLeft() and setRight()
+------------
+if (this.left && this.nodeComparator.equal(this.left, nodeToReplace)) {
+      this.setLeft(replacementNode);
+      return true;
+    }
+
+    if (this.right && this.nodeComparator.equal(this.right, nodeToReplace)) {
+      this.setRight(replacementNode);
+      return true;
+    }
+------------
+
+And  BinarySearchTreeNode.js line  136
+nodeToRemove.parent = null; 
+It's a bug;",[]
+144,479,"fix JSDoc tag, add rule for Editorconfig and useful Git attributes",[],open,,"['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/479?src=pr&el=h1) Report\n> Merging [#479](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/479?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/ba2d8dc4a8e27659c1420fe52390cb7981df4a94&el=desc) will **not change** coverage.\n> The diff coverage is `n/a`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/479/graphs/tree.svg?width=650&height=150&src=pr&token=2jOOUBhvZL)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/479?src=pr&el=tree)\n\n```diff\n@@            Coverage Diff            @@\n##            master      #479   +/-   ##\n=========================================\n  Coverage   100.00%   100.00%           \n=========================================\n  Files          149       149           \n  Lines         2612      2612           \n  Branches       434       434           \n=========================================\n  Hits          2612      2612           \n```\n\n\n| [Impacted Files](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/479?src=pr&el=tree) | Coverage Δ | |\n|---|---|---|\n| [src/utils/comparator/Comparator.js](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/479/diff?src=pr&el=tree#diff-c3JjL3V0aWxzL2NvbXBhcmF0b3IvQ29tcGFyYXRvci5qcw==) | `100.00% <ø> (ø)` | |\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/479?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/479?src=pr&el=footer). Last update [ba2d8dc...1cf55d7](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/479?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n']"
+145,477,Arabic Tranlsation,[],open,"Hello,
+I can help by translate documentation into Arabic with my native speak language.
+message me up",[]
+146,473,Update jest.config.js,[],open,"**Problem:** All tests have been failed due to ""SecurityError: localStorage is not available for opaque origins""
+**Solution:** [Add testUrl](https://github.com/facebook/jest/issues/6769#issuecomment-408352345)",[]
+147,467,Make linked list iterable,[],open,If its looks good I can submit pull requests for some of the other data structures I think should be iterable.,[]
+148,460,should it be this right ? ,[],open,https://github.com/trekhleb/javascript-algorithms/blob/ba2d8dc4a8e27659c1420fe52390cb7981df4a94/src/data-structures/tree/BinaryTreeNode.js#L133,"['`this` should always exist. Since there is no restriction on parameters in JS, if node is undefined/null, `setRight(node)` is the same as removing the right child. If this line is omitted, `this.right.parent = this;` has a possibility of calling `null.parent` which would throw an error, since `this.right = node` from the previous line.']"
+149,458,Fix recursion issues in algorithms/sets/combination-sum,[],open,"My changes should fix #308.
+
+I have refactored combinationSum to use an iterative approach to avoid stack overflows when the decision tree gets too deep (candidates=[1], target=100000).
+
+Additionally, the code now filters out any candidate equal to zero to avoid loops.","['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/458?src=pr&el=h1) Report\n> Merging [#458](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/458?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/ba2d8dc4a8e27659c1420fe52390cb7981df4a94?src=pr&el=desc) will **not change** coverage.\n> The diff coverage is `100%`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/458/graphs/tree.svg?width=650&token=2jOOUBhvZL&height=150&src=pr)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/458?src=pr&el=tree)\n\n```diff\n@@          Coverage Diff          @@\n##           master   #458   +/-   ##\n=====================================\n  Coverage     100%   100%           \n=====================================\n  Files         149    149           \n  Lines        2612   2618    +6     \n  Branches      434    434           \n=====================================\n+ Hits         2612   2618    +6\n```\n\n\n| [Impacted Files](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/458?src=pr&el=tree) | Coverage Δ | |\n|---|---|---|\n| [.../algorithms/sets/combination-sum/combinationSum.js](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/458/diff?src=pr&el=tree#diff-c3JjL2FsZ29yaXRobXMvc2V0cy9jb21iaW5hdGlvbi1zdW0vY29tYmluYXRpb25TdW0uanM=) | `100% <100%> (ø)` | :arrow_up: |\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/458?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/458?src=pr&el=footer). Last update [ba2d8dc...2f60cab](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/458?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n']"
+150,456,Add a recursive implementation of levenshteinDistance,[],open,,[]
+151,452,Update README.md,[],open,Adding an example of a binary search in JavaScript video,"['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/452?src=pr&el=h1) Report\n> Merging [#452](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/452?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/ba2d8dc4a8e27659c1420fe52390cb7981df4a94?src=pr&el=desc) will **not change** coverage.\n> The diff coverage is `n/a`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/452/graphs/tree.svg?width=650&token=2jOOUBhvZL&height=150&src=pr)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/452?src=pr&el=tree)\n\n```diff\n@@          Coverage Diff          @@\n##           master   #452   +/-   ##\n=====================================\n  Coverage     100%   100%           \n=====================================\n  Files         149    149           \n  Lines        2612   2612           \n  Branches      434    434           \n=====================================\n  Hits         2612   2612\n```\n\n\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/452?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/452?src=pr&el=footer). Last update [ba2d8dc...61c13ac](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/452?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n']"
+152,446,Update LinkedList.test.js,[],open,Add a test to the LinkedList structure to test the toArray() method,"['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/446?src=pr&el=h1) Report\n> Merging [#446](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/446?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/ba2d8dc4a8e27659c1420fe52390cb7981df4a94?src=pr&el=desc) will **not change** coverage.\n> The diff coverage is `n/a`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/446/graphs/tree.svg?width=650&token=2jOOUBhvZL&height=150&src=pr)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/446?src=pr&el=tree)\n\n```diff\n@@          Coverage Diff          @@\n##           master   #446   +/-   ##\n=====================================\n  Coverage     100%   100%           \n=====================================\n  Files         149    149           \n  Lines        2612   2612           \n  Branches      434    434           \n=====================================\n  Hits         2612   2612\n```\n\n\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/446?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/446?src=pr&el=footer). Last update [ba2d8dc...e0de4bb](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/446?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n']"
+153,438,Graph customization,[],open,"* Allow graph edges with custom keys. This is important if we have two edges connected to the same vertices but having a different weight. We could have used the weight in the name, but as conceptually two edges could also have the same vertices and weight, I think it's a better idea to propose the user a way to make sure this edge case (pun intended) doesn't happen.
+* Vertex can be converted to string, so I made sure that the `toString()` method is called, in case we have objects convertible to strings. The native `toString()` implementation might throw exceptions as expected.
+* Edge key is now sure to be correctly converted to string too.
+* We currently can't add an edge twice to a graph, I also added support for not adding a vertex twice.","['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/438?src=pr&el=h1) Report\n> Merging [#438](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/438?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/ba2d8dc4a8e27659c1420fe52390cb7981df4a94?src=pr&el=desc) will **not change** coverage.\n> The diff coverage is `100%`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/438/graphs/tree.svg?width=650&token=2jOOUBhvZL&height=150&src=pr)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/438?src=pr&el=tree)\n\n```diff\n@@          Coverage Diff          @@\n##           master   #438   +/-   ##\n=====================================\n  Coverage     100%   100%           \n=====================================\n  Files         149    149           \n  Lines        2612   2619    +7     \n  Branches      434    436    +2     \n=====================================\n+ Hits         2612   2619    +7\n```\n\n\n| [Impacted Files](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/438?src=pr&el=tree) | Coverage Δ | |\n|---|---|---|\n| [src/data-structures/graph/GraphVertex.js](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/438/diff?src=pr&el=tree#diff-c3JjL2RhdGEtc3RydWN0dXJlcy9ncmFwaC9HcmFwaFZlcnRleC5qcw==) | `100% <100%> (ø)` | :arrow_up: |\n| [src/data-structures/graph/GraphEdge.js](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/438/diff?src=pr&el=tree#diff-c3JjL2RhdGEtc3RydWN0dXJlcy9ncmFwaC9HcmFwaEVkZ2UuanM=) | `100% <100%> (ø)` | :arrow_up: |\n| [src/data-structures/graph/Graph.js](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/438/diff?src=pr&el=tree#diff-c3JjL2RhdGEtc3RydWN0dXJlcy9ncmFwaC9HcmFwaC5qcw==) | `100% <100%> (ø)` | :arrow_up: |\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/438?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/438?src=pr&el=footer). Last update [ba2d8dc...4b0dfd4](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/438?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n', ""I think this pull request looks reasonable except this part:\r\n\r\n>We currently can't add an edge twice to a graph, I also added support for not adding a vertex twice.\r\n\r\nWhat would be a valid scenario where adding a vertex twice does not make sense? :thinking: "", 'Every vertex has a unique key, and vertex as objects can be referenced in the memory.\r\n\r\nIf you add a vertex, changing it afterwards should propagate the change to potential existing edge associated with it. If you just change the value in `this.vertices`, it will not be able to propagate to edges referencing this vertex.\r\n\r\nThe old behavior allowed to entirely **replace** a vertex, and if it was referenced somewhere, the reference was lost and concluded to a data corruption.\r\n\r\nIt\'s either this, or create a full-fledged propagation system, which is way more complex.\r\n\r\nI decided to go ""the easy way"" by disallowing adding vertices twice :)', 'Interesting. Thank you for the explanation, @Pierstoval. Hoping that this gets merged, as it appears to be useful when using graphs for calculating currency arbitrage opportunities, for example.']"
+154,436,Trie.test.js contains wrong assertion,[],open,"First of all I want to say I love this work so much I'm trying to port some parts of it to **C#** (https://github.com/gsscoder/sharprhythm)!
+
+In general I see that executing **playground.js** causes *various tests to fail*.
+
+Here I'm reporting about **Trie** data structure, cause it's the last piece of code I've ported.
+Assertion [here](https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/trie/__test__/Trie.test.js#L22) should be:
+`expect(trie.head.getChild('c').getChild('a').toString()).toBe('a:tr');`.
+
+I also see (*quite secondary thing*) the use of both `toBe(true/false)` and `toEqual(true/false)`. I would suggest to use just one form.",[]
+155,435,Add BogoSort,[],open,Resolves issue #234 ,"[""What's the point of this?"", 'The point is to add a new sort method to project :smile: See issue #234 .', ""But the sorting method is pointless. It's just dead code.""]"
+156,434,"BFS image has a generic tree in it, but the algorithm only works with a binary trees",[],open,"The image [here](https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/tree/breadth-first-search) shows a generic tree (3 children on the first level from root), while the algorithm's code is for binary tree only. Moreover, the algorithm is in the `tree/` subfolder, maybe it worth naming it `binary-tree`?","['It works on a normal tree too, but this implementation with binary tree']"
+157,431,Update README.md,[],open,Modified the definition of BFS for readability. Hope it helps!,"['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/431?src=pr&el=h1) Report\n> Merging [#431](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/431?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/dc1047df725117c411959692a1ab538f65342b2e?src=pr&el=desc) will **not change** coverage.\n> The diff coverage is `n/a`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/431/graphs/tree.svg?width=650&token=2jOOUBhvZL&height=150&src=pr)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/431?src=pr&el=tree)\n\n```diff\n@@          Coverage Diff          @@\n##           master   #431   +/-   ##\n=====================================\n  Coverage     100%   100%           \n=====================================\n  Files         149    149           \n  Lines        2612   2612           \n  Branches      434    434           \n=====================================\n  Hits         2612   2612\n```\n\n\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/431?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/431?src=pr&el=footer). Last update [dc1047d...0cef5ca](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/431?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n']"
+158,430,Update README.md,[],open,Modified the definition of BFS for readability. Hope this helps!,"['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/430?src=pr&el=h1) Report\n> Merging [#430](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/430?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/dc1047df725117c411959692a1ab538f65342b2e?src=pr&el=desc) will **not change** coverage.\n> The diff coverage is `n/a`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/430/graphs/tree.svg?width=650&token=2jOOUBhvZL&height=150&src=pr)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/430?src=pr&el=tree)\n\n```diff\n@@          Coverage Diff          @@\n##           master   #430   +/-   ##\n=====================================\n  Coverage     100%   100%           \n=====================================\n  Files         149    149           \n  Lines        2612   2612           \n  Branches      434    434           \n=====================================\n  Hits         2612   2612\n```\n\n\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/430?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/430?src=pr&el=footer). Last update [dc1047d...a9193aa](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/430?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n']"
+159,427,AVL Tree rotation method is very confusing,[],open,"This is about `AvlTree.js` - `rotateLeftLeft`,  `rotateRightRight` method
+rotateLeftLeft should be call 'caseLeftLeft' or 'rotateRightRight'.
+Because base on the image on avi tree `readme.md`, `rotateLeftLeft` method is a right-right rotation.",[]
+160,426,Changed wording for clarity in README.md,[],open,,"['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/426?src=pr&el=h1) Report\n> Merging [#426](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/426?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/dc1047df725117c411959692a1ab538f65342b2e?src=pr&el=desc) will **not change** coverage.\n> The diff coverage is `n/a`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/426/graphs/tree.svg?width=650&token=2jOOUBhvZL&height=150&src=pr)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/426?src=pr&el=tree)\n\n```diff\n@@          Coverage Diff          @@\n##           master   #426   +/-   ##\n=====================================\n  Coverage     100%   100%           \n=====================================\n  Files         149    149           \n  Lines        2612   2612           \n  Branches      434    434           \n=====================================\n  Hits         2612   2612\n```\n\n\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/426?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/426?src=pr&el=footer). Last update [dc1047d...db0ec03](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/426?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n']"
+161,425,Adding  Binary Search,[],open,,[]
+162,421,Added a detailed explaination on big 0 notation,[],open,To provide a better and more detailed explanation for Big notation added big 0 notation explanation file that is detailed and linked it to the main Readme.md .,"['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/421?src=pr&el=h1) Report\n> Merging [#421](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/421?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/ba2d8dc4a8e27659c1420fe52390cb7981df4a94?src=pr&el=desc) will **not change** coverage.\n> The diff coverage is `n/a`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/421/graphs/tree.svg?width=650&token=2jOOUBhvZL&height=150&src=pr)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/421?src=pr&el=tree)\n\n```diff\n@@          Coverage Diff          @@\n##           master   #421   +/-   ##\n=====================================\n  Coverage     100%   100%           \n=====================================\n  Files         149    149           \n  Lines        2612   2612           \n  Branches      434    434           \n=====================================\n  Hits         2612   2612\n```\n\n\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/421?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/421?src=pr&el=footer). Last update [ba2d8dc...d3848e6](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/421?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n']"
+163,420,Update linearSearch with a more functional approach using reduce,[],open,This PR updates the linearSearch algo with a more modern functional approach. ,"['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/420?src=pr&el=h1) Report\n> Merging [#420](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/420?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/dc1047df725117c411959692a1ab538f65342b2e?src=pr&el=desc) will **not change** coverage.\n> The diff coverage is `100%`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/420/graphs/tree.svg?width=650&token=2jOOUBhvZL&height=150&src=pr)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/420?src=pr&el=tree)\n\n```diff\n@@          Coverage Diff          @@\n##           master   #420   +/-   ##\n=====================================\n  Coverage     100%   100%           \n=====================================\n  Files         149    149           \n  Lines        2612   2611    -1     \n  Branches      434    434           \n=====================================\n- Hits         2612   2611    -1\n```\n\n\n| [Impacted Files](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/420?src=pr&el=tree) | Coverage Δ | |\n|---|---|---|\n| [...rc/algorithms/search/linear-search/linearSearch.js](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/420/diff?src=pr&el=tree#diff-c3JjL2FsZ29yaXRobXMvc2VhcmNoL2xpbmVhci1zZWFyY2gvbGluZWFyU2VhcmNoLmpz) | `100% <100%> (ø)` | :arrow_up: |\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/420?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/420?src=pr&el=footer). Last update [dc1047d...7170a3b](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/420?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n']"
+164,419,Update Stack.js,[],open,,[]
+165,418,Update missing part of README.ko-KR.md ,[],open,"## Fix#417
+- Add additional korean document that unadded part
+
+## change
+- Update missing part of README.ko-KR.md 
+
+## How Verified
+### Notes
+- N/A
+
+### References
+- https://www.diffchecker.com/wuvG4rka",[]
+166,417,Add missing contents on README.ko-KR.md,[],open,"I find some contents missing in korean documents(README.ko-KR.md)
+
+https://www.diffchecker.com/wuvG4rka
+
+I want to add that missing part. 
+
+Can I contribute it?",[]
+167,416, Simplifies code contributions + reviews and automates the dev setup,[],open,"Hi! there, :slightly_smiling_face:
+
+this PR simplifies code contributions by fully automating the setup with Gitpod  (A free online VS Code like IDE) for contributing.
+
+With a single click, it'll launch a workspace and automatically:
+
+- clone the javascript-algorithms repo.
+- install the dependencies.
+
+
+You can give it a try on my fork of the repo: https://gitpod.io/#https://github.com/nisarhassan12/javascript-algorithms
+
+![image](https://user-images.githubusercontent.com/46004116/67198217-fe563b00-f417-11e9-9e04-d180509185b6.png)
+
+It seems to work well! Please let me know if there is anything that can be improved. I would love to help :)","['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/416?src=pr&el=h1) Report\n> Merging [#416](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/416?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/ba2d8dc4a8e27659c1420fe52390cb7981df4a94?src=pr&el=desc) will **not change** coverage.\n> The diff coverage is `n/a`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/416/graphs/tree.svg?width=650&token=2jOOUBhvZL&height=150&src=pr)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/416?src=pr&el=tree)\n\n```diff\n@@          Coverage Diff          @@\n##           master   #416   +/-   ##\n=====================================\n  Coverage     100%   100%           \n=====================================\n  Files         149    149           \n  Lines        2612   2612           \n  Branches      434    434           \n=====================================\n  Hits         2612   2612\n```\n\n\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/416?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/416?src=pr&el=footer). Last update [ba2d8dc...354ac26](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/416?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n', 'Rebased on top of latest master.']"
+168,415,Adding Sentinal linear search,[],open,,[]
+169,414,Adding Vigenere cipher in cryptography section,[],open,Feature for issue #406.,"['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/414?src=pr&el=h1) Report\n> Merging [#414](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/414?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/dc1047df725117c411959692a1ab538f65342b2e?src=pr&el=desc) will **not change** coverage.\n> The diff coverage is `100%`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/414/graphs/tree.svg?width=650&token=2jOOUBhvZL&height=150&src=pr)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/414?src=pr&el=tree)\n\n```diff\n@@          Coverage Diff          @@\n##           master   #414   +/-   ##\n=====================================\n  Coverage     100%   100%           \n=====================================\n  Files         149    150    +1     \n  Lines        2612   2648   +36     \n  Branches      434    435    +1     \n=====================================\n+ Hits         2612   2648   +36\n```\n\n\n| [Impacted Files](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/414?src=pr&el=tree) | Coverage Δ | |\n|---|---|---|\n| [...hms/cryptography/vigenere-cipher/VigenereCipher.js](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/414/diff?src=pr&el=tree#diff-c3JjL2FsZ29yaXRobXMvY3J5cHRvZ3JhcGh5L3ZpZ2VuZXJlLWNpcGhlci9WaWdlbmVyZUNpcGhlci5qcw==) | `100% <100%> (ø)` | |\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/414?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/414?src=pr&el=footer). Last update [dc1047d...476c3ff](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/414?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n']"
+170,413,Add pt-BR translation for Selection Sort,[],open,,"['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/413?src=pr&el=h1) Report\n> Merging [#413](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/413?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/dc1047df725117c411959692a1ab538f65342b2e?src=pr&el=desc) will **not change** coverage.\n> The diff coverage is `n/a`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/413/graphs/tree.svg?width=650&token=2jOOUBhvZL&height=150&src=pr)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/413?src=pr&el=tree)\n\n```diff\n@@          Coverage Diff          @@\n##           master   #413   +/-   ##\n=====================================\n  Coverage     100%   100%           \n=====================================\n  Files         149    149           \n  Lines        2612   2612           \n  Branches      434    434           \n=====================================\n  Hits         2612   2612\n```\n\n\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/413?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/413?src=pr&el=footer). Last update [dc1047d...4a7ca93](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/413?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n']"
+171,412,Add pt-BR translation for Heap Sort,[],open,,"['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/412?src=pr&el=h1) Report\n> Merging [#412](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/412?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/dc1047df725117c411959692a1ab538f65342b2e?src=pr&el=desc) will **not change** coverage.\n> The diff coverage is `n/a`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/412/graphs/tree.svg?width=650&token=2jOOUBhvZL&height=150&src=pr)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/412?src=pr&el=tree)\n\n```diff\n@@          Coverage Diff          @@\n##           master   #412   +/-   ##\n=====================================\n  Coverage     100%   100%           \n=====================================\n  Files         149    149           \n  Lines        2612   2612           \n  Branches      434    434           \n=====================================\n  Hits         2612   2612\n```\n\n\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/412?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/412?src=pr&el=footer). Last update [dc1047d...3b31e8c](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/412?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n']"
+172,411,adding BFS,[],open,,"['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/411?src=pr&el=h1) Report\n> Merging [#411](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/411?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/dc1047df725117c411959692a1ab538f65342b2e?src=pr&el=desc) will **not change** coverage.\n> The diff coverage is `n/a`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/411/graphs/tree.svg?width=650&token=2jOOUBhvZL&height=150&src=pr)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/411?src=pr&el=tree)\n\n```diff\n@@          Coverage Diff          @@\n##           master   #411   +/-   ##\n=====================================\n  Coverage     100%   100%           \n=====================================\n  Files         149    149           \n  Lines        2612   2612           \n  Branches      434    434           \n=====================================\n  Hits         2612   2612\n```\n\n\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/411?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/411?src=pr&el=footer). Last update [dc1047d...35d1efa](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/411?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n']"
+173,410,palindrome program,[],open,,[]
+174,407,Implemented method to generate adjacency list for graph,[],open,,"['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/407?src=pr&el=h1) Report\n> Merging [#407](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/407?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/dc1047df725117c411959692a1ab538f65342b2e?src=pr&el=desc) will **not change** coverage.\n> The diff coverage is `100%`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/407/graphs/tree.svg?width=650&token=2jOOUBhvZL&height=150&src=pr)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/407?src=pr&el=tree)\n\n```diff\n@@          Coverage Diff          @@\n##           master   #407   +/-   ##\n=====================================\n  Coverage     100%   100%           \n=====================================\n  Files         149    149           \n  Lines        2612   2626   +14     \n  Branches      434    437    +3     \n=====================================\n+ Hits         2612   2626   +14\n```\n\n\n| [Impacted Files](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/407?src=pr&el=tree) | Coverage Δ | |\n|---|---|---|\n| [src/data-structures/graph/Graph.js](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/407/diff?src=pr&el=tree#diff-c3JjL2RhdGEtc3RydWN0dXJlcy9ncmFwaC9HcmFwaC5qcw==) | `100% <100%> (ø)` | :arrow_up: |\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/407?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/407?src=pr&el=footer). Last update [dc1047d...66919b4](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/407?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n']"
+175,406,Add more cryptography  ,[],open,"Can these lists added in this repository as the cryptography section?  
+
+- [ ] Caesar cipher [PR#408](https://github.com/trekhleb/javascript-algorithms/pull/408)
+- [ ] Vigenere cipher [PR#414](https://github.com/trekhleb/javascript-algorithms/pull/414)
+- [ ] Hill cipher [PR#424](https://github.com/trekhleb/javascript-algorithms/pull/424)
+
+Thanks! ","['Adde Caesar Cipher #408 ', 'Doing Vigenere cipher.', 'Vigenere cipher done #414', 'Hill Cipher  [#424](https://github.com/trekhleb/javascript-algorithms/pull/424)']"
+176,403,create fibonacci code,[],open,,"['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/403?src=pr&el=h1) Report\n> Merging [#403](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/403?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/dc1047df725117c411959692a1ab538f65342b2e?src=pr&el=desc) will **not change** coverage.\n> The diff coverage is `n/a`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/403/graphs/tree.svg?width=650&token=2jOOUBhvZL&height=150&src=pr)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/403?src=pr&el=tree)\n\n```diff\n@@          Coverage Diff          @@\n##           master   #403   +/-   ##\n=====================================\n  Coverage     100%   100%           \n=====================================\n  Files         149    149           \n  Lines        2612   2612           \n  Branches      434    434           \n=====================================\n  Hits         2612   2612\n```\n\n\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/403?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/403?src=pr&el=footer). Last update [dc1047d...809a394](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/403?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n']"
+177,402,added counting sort repo,[],open,issue #394 has been solved,"['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/402?src=pr&el=h1) Report\n> Merging [#402](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/402?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/dc1047df725117c411959692a1ab538f65342b2e?src=pr&el=desc) will **not change** coverage.\n> The diff coverage is `n/a`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/402/graphs/tree.svg?width=650&token=2jOOUBhvZL&height=150&src=pr)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/402?src=pr&el=tree)\n\n```diff\n@@          Coverage Diff          @@\n##           master   #402   +/-   ##\n=====================================\n  Coverage     100%   100%           \n=====================================\n  Files         149    149           \n  Lines        2612   2612           \n  Branches      434    434           \n=====================================\n  Hits         2612   2612\n```\n\n\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/402?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/402?src=pr&el=footer). Last update [dc1047d...9dd7b3c](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/402?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n']"
+178,401,added frequency counter algorithm based problems.,[],open,"added a new category of algorithms, inside the algorithms directory.
+It contains problems, concerning the frequency counter algorithms.",[]
+179,400,Refactoring fibonacci algorithm,[],open,Removed redundant condition,[]
+180,394,Counting sort stability,[],open,"I'm curious as how counting sort is stable in the example animations shown.
+The relative order of each equal element values is reversed. Is this still considered stable?
+Or should I iterate through the original array in reverse when filling in the sorted array?",[]
+181,391,Lack Boyer-Moore,[],open,"In computer science, the Boyer–Moore string-search algorithm is an efficient string-searching algorithm that is the standard benchmark for practical string-search literature. Should we annex the algorithm in Section Strings?",[]
+182,390,Gnome sort,[],open,"Gnome sort algorithm :)
+
+Font: https://en.wikipedia.org/wiki/Gnome_sort","['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/390?src=pr&el=h1) Report\n> Merging [#390](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/390?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/dc1047df725117c411959692a1ab538f65342b2e?src=pr&el=desc) will **not change** coverage.\n> The diff coverage is `100%`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/390/graphs/tree.svg?width=650&token=2jOOUBhvZL&height=150&src=pr)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/390?src=pr&el=tree)\n\n```diff\n@@          Coverage Diff          @@\n##           master   #390   +/-   ##\n=====================================\n  Coverage     100%   100%           \n=====================================\n  Files         149    150    +1     \n  Lines        2612   2623   +11     \n  Branches      434    436    +2     \n=====================================\n+ Hits         2612   2623   +11\n```\n\n\n| [Impacted Files](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/390?src=pr&el=tree) | Coverage Δ | |\n|---|---|---|\n| [src/algorithms/sorting/gnome-sort/GnomeSort.js](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/390/diff?src=pr&el=tree#diff-c3JjL2FsZ29yaXRobXMvc29ydGluZy9nbm9tZS1zb3J0L0dub21lU29ydC5qcw==) | `100% <100%> (ø)` | |\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/390?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/390?src=pr&el=footer). Last update [dc1047d...5d9f19b](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/390?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n', '# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/390?src=pr&el=h1) Report\n> Merging [#390](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/390?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/dc1047df725117c411959692a1ab538f65342b2e?src=pr&el=desc) will **not change** coverage.\n> The diff coverage is `100%`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/390/graphs/tree.svg?width=650&token=2jOOUBhvZL&height=150&src=pr)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/390?src=pr&el=tree)\n\n```diff\n@@          Coverage Diff          @@\n##           master   #390   +/-   ##\n=====================================\n  Coverage     100%   100%           \n=====================================\n  Files         149    150    +1     \n  Lines        2612   2626   +14     \n  Branches      434    437    +3     \n=====================================\n+ Hits         2612   2626   +14\n```\n\n\n| [Impacted Files](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/390?src=pr&el=tree) | Coverage Δ | |\n|---|---|---|\n| [src/algorithms/sorting/gnome-sort/GnomeSort.js](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/390/diff?src=pr&el=tree#diff-c3JjL2FsZ29yaXRobXMvc29ydGluZy9nbm9tZS1zb3J0L0dub21lU29ydC5qcw==) | `100% <100%> (ø)` | |\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/390?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/390?src=pr&el=footer). Last update [dc1047d...5d9f19b](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/390?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n']"
+183,389,Optimize insertion sort,[],open,"##  Optimize the performance of insert sort
+
+###  The main problem
+If currentIndex is equal to 0, you can abort while
+
+###  validation
+
+#### 1: Create the test file
+```bash
+touch -p src/algorithms/sorting/insertion-sort/__test__/Performance.test.js
+```
+
+#### 2: The file writes the following
+```javascript
+import InsertionSort from ""../InsertionSort"";
+
+function PerformanceTesting() {
+  function initArray() {
+    let array = [];
+    const max = Math.pow(10, 4.5);
+    for (let i = max; i > 0; i--) {
+      array.push(i);
+    }
+    return array;
+  }
+
+  const sorter = new InsertionSort();
+  const array = initArray();
+
+  let start = Date.now();
+  sorter.sort(array);
+
+  const ms = Date.now() - start;
+  return ms;
+}
+
+describe(""PerformanceTesting"", () => {
+  it(""PerformanceTesting times"", () => {
+    const InsertionSortMs = PerformanceTesting(InsertionSort);
+    console.log(`InsertionSort times: ${InsertionSortMs}ms`);
+  });
+});
+```
+#### 3: The results 
+#### Has not changed:   6007ms
+#### After the changes: 1729ms","['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/389?src=pr&el=h1) Report\n> Merging [#389](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/389?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/dc1047df725117c411959692a1ab538f65342b2e?src=pr&el=desc) will **not change** coverage.\n> The diff coverage is `100%`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/389/graphs/tree.svg?width=650&token=2jOOUBhvZL&height=150&src=pr)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/389?src=pr&el=tree)\n\n```diff\n@@          Coverage Diff          @@\n##           master   #389   +/-   ##\n=====================================\n  Coverage     100%   100%           \n=====================================\n  Files         149    149           \n  Lines        2612   2612           \n  Branches      434    434           \n=====================================\n  Hits         2612   2612\n```\n\n\n| [Impacted Files](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/389?src=pr&el=tree) | Coverage Δ | |\n|---|---|---|\n| [...algorithms/sorting/insertion-sort/InsertionSort.js](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/389/diff?src=pr&el=tree#diff-c3JjL2FsZ29yaXRobXMvc29ydGluZy9pbnNlcnRpb24tc29ydC9JbnNlcnRpb25Tb3J0Lmpz) | `100% <100%> (ø)` | :arrow_up: |\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/389?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/389?src=pr&el=footer). Last update [dc1047d...e8d691e](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/389?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n', '# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/389?src=pr&el=h1) Report\n> Merging [#389](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/389?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/dc1047df725117c411959692a1ab538f65342b2e?src=pr&el=desc) will **not change** coverage.\n> The diff coverage is `100%`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/389/graphs/tree.svg?width=650&token=2jOOUBhvZL&height=150&src=pr)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/389?src=pr&el=tree)\n\n```diff\n@@          Coverage Diff          @@\n##           master   #389   +/-   ##\n=====================================\n  Coverage     100%   100%           \n=====================================\n  Files         149    149           \n  Lines        2612   2612           \n  Branches      434    434           \n=====================================\n  Hits         2612   2612\n```\n\n\n| [Impacted Files](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/389?src=pr&el=tree) | Coverage Δ | |\n|---|---|---|\n| [...algorithms/sorting/insertion-sort/InsertionSort.js](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/389/diff?src=pr&el=tree#diff-c3JjL2FsZ29yaXRobXMvc29ydGluZy9pbnNlcnRpb24tc29ydC9JbnNlcnRpb25Tb3J0Lmpz) | `100% <100%> (ø)` | :arrow_up: |\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/389?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/389?src=pr&el=footer). Last update [dc1047d...e8d691e](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/389?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n']"
+184,387,Calculate fibonacci using Matriz,[],open,,"['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/387?src=pr&el=h1) Report\n> Merging [#387](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/387?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/dc1047df725117c411959692a1ab538f65342b2e?src=pr&el=desc) will **not change** coverage.\n> The diff coverage is `100%`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/387/graphs/tree.svg?width=650&token=2jOOUBhvZL&height=150&src=pr)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/387?src=pr&el=tree)\n\n```diff\n@@          Coverage Diff          @@\n##           master   #387   +/-   ##\n=====================================\n  Coverage     100%   100%           \n=====================================\n  Files         149    150    +1     \n  Lines        2612   2624   +12     \n  Branches      434    437    +3     \n=====================================\n+ Hits         2612   2624   +12\n```\n\n\n| [Impacted Files](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/387?src=pr&el=tree) | Coverage Δ | |\n|---|---|---|\n| [src/algorithms/math/fibonacci/fibonacciMatriz.js](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/387/diff?src=pr&el=tree#diff-c3JjL2FsZ29yaXRobXMvbWF0aC9maWJvbmFjY2kvZmlib25hY2NpTWF0cml6Lmpz) | `100% <100%> (ø)` | |\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/387?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/387?src=pr&el=footer). Last update [dc1047d...8beadbc](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/387?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n']"
+185,384,Update LinkedList.js,[],open,Traversing the list to find the last node and add the new data,[]
+186,383,Hamiltonian Path with a directed graph,[],open,"So I have a graph that is directed, all the possible outputs from the calling `hamiltonianCycle(graph);` aren't possible because one or more of the suggested edges don't exist
+
+I've written the graph out long form as a test long form to help with debugging.
+
+```
+describe('hamiltonianCycle', () => {
+  it('should find hamiltonian paths in graph', () => {
+    const vertex6_1 = new GraphVertex('6_1');
+    const vertex1_1 = new GraphVertex('1_1');
+    const vertex6_3 = new GraphVertex('6_3');
+    const vertex5_3 = new GraphVertex('5_3');
+    const vertex5_1 = new GraphVertex('5_1');
+    const vertex5_6 = new GraphVertex('5_6');
+    const vertex6_6 = new GraphVertex('6_6');
+    const vertex6_5 = new GraphVertex('6_5');
+    const vertex1_5 = new GraphVertex('1_5');
+    const vertex1_3 = new GraphVertex('1_3');
+    const vertex1_6 = new GraphVertex('1_6');
+    const vertex3_3 = new GraphVertex('3_3');
+    const vertex3_1 = new GraphVertex('3_1');
+    const vertex3_6 = new GraphVertex('3_6');
+
+    const edge1_1_6_1 = new GraphEdge(vertex1_1, vertex6_1);
+    const edge6_1_1_1 = new GraphEdge(vertex6_1, vertex1_1);
+    const edge6_1_6_3 = new GraphEdge(vertex6_1, vertex6_3);
+    const edge6_3_5_3 = new GraphEdge(vertex6_3, vertex5_3);
+    const edge6_3_6_1 = new GraphEdge(vertex6_3, vertex6_1);
+    const edge5_3_6_3 = new GraphEdge(vertex5_3, vertex6_3);
+    const edge5_3_5_1 = new GraphEdge(vertex5_3, vertex5_1);
+    const edge5_3_5_6 = new GraphEdge(vertex5_3, vertex5_6);
+    const edge5_1_1_1 = new GraphEdge(vertex5_1, vertex1_1);
+    const edge5_1_6_1 = new GraphEdge(vertex5_1, vertex6_1);
+    const edge5_1_5_6 = new GraphEdge(vertex5_1, vertex5_6);
+    const edge5_6_6_6 = new GraphEdge(vertex5_6, vertex6_6);
+    const edge5_6_5_1 = new GraphEdge(vertex5_6, vertex5_1);
+    const edge6_6_5_6 = new GraphEdge(vertex6_6, vertex5_6);
+    const edge6_6_6_5 = new GraphEdge(vertex6_6, vertex6_5);
+    const edge6_5_1_5 = new GraphEdge(vertex6_5, vertex1_5);
+    const edge6_5_6_6 = new GraphEdge(vertex6_5, vertex6_6);
+    const edge1_5_6_5 = new GraphEdge(vertex1_5, vertex6_5);
+    const edge1_5_1_3 = new GraphEdge(vertex1_5, vertex1_3);
+    const edge1_5_1_6 = new GraphEdge(vertex1_5, vertex1_6);
+    const edge1_3_3_3 = new GraphEdge(vertex1_3, vertex3_3);
+    const edge1_3_1_6 = new GraphEdge(vertex1_3, vertex1_6);
+    const edge3_3_1_3 = new GraphEdge(vertex3_3, vertex1_3);
+    const edge3_3_3_1 = new GraphEdge(vertex3_3, vertex3_1);
+    const edge3_3_3_6 = new GraphEdge(vertex3_3, vertex3_6);
+    const edge3_1_1_1 = new GraphEdge(vertex3_1, vertex1_1);
+    const edge3_1_6_1 = new GraphEdge(vertex3_1, vertex6_1);
+    const edge3_1_3_6 = new GraphEdge(vertex3_1, vertex3_6);
+    const edge3_6_1_6 = new GraphEdge(vertex3_6, vertex1_6);
+    const edge3_6_3_1 = new GraphEdge(vertex3_6, vertex3_1);
+    const edge1_6_3_6 = new GraphEdge(vertex1_6, vertex3_6);
+    const edge1_6_1_3 = new GraphEdge(vertex1_6, vertex1_3);
+
+
+    const graph = new Graph();
+    graph
+      .addEdge(edge1_1_6_1)
+      .addEdge(edge6_1_1_1)
+      .addEdge(edge6_1_6_3)
+      .addEdge(edge6_3_5_3)
+      .addEdge(edge6_3_6_1)
+      .addEdge(edge5_3_6_3)
+      .addEdge(edge5_3_5_1)
+      .addEdge(edge5_3_5_6)
+      .addEdge(edge5_1_1_1)
+      .addEdge(edge5_1_6_1)
+      .addEdge(edge5_1_5_6)
+      .addEdge(edge5_6_6_6)
+      .addEdge(edge5_6_5_1)
+      .addEdge(edge6_6_5_6)
+      .addEdge(edge6_6_6_5)
+      .addEdge(edge6_5_1_5)
+      .addEdge(edge6_5_6_6)
+      .addEdge(edge1_5_6_5)
+      .addEdge(edge1_5_1_3)
+      .addEdge(edge1_5_1_6)
+      .addEdge(edge1_3_3_3)
+      .addEdge(edge1_3_1_6)
+      .addEdge(edge3_3_1_3)
+      .addEdge(edge3_3_3_1)
+      .addEdge(edge3_3_3_6)
+      .addEdge(edge3_1_1_1)
+      .addEdge(edge3_1_6_1)
+      .addEdge(edge3_1_3_6)
+      .addEdge(edge3_6_1_6)
+      .addEdge(edge3_6_3_1)
+      .addEdge(edge1_6_3_6)
+      .addEdge(edge1_6_1_3);
+
+    const hamiltonianCycleSet = hamiltonianCycle(graph);
+
+    console.log(hamiltonianCycleSet);
+    expect(hamiltonianCycleSet.length).toBe(8);
+  });
+});
+```
+
+So I get 8 results in the output. The first path from the array is all good until you get to `3_6` to `3_3` as you can see from the code there is no `edge3_6_3_3`🤷🏻‍♂️am I just miss understanding what this does or am I miss using it?
+
+you can get from `3_3` to `3_6` but not back, which it fine right it's a directional graph. Using a different library I checked for cycles, it said that this graph was one big cycle.
+
+any help would be appreciated.",[]
+187,382,Tribonacci Sequence,[],open,"Hello guys! I saw the project and I like so much of maths algorithms. I saw the fibonacci sequence, that is perfect, but I remember of other sequence, the tribonacci sequence, so what I did was implent this and the respectives tests. 
+
+Basically is like fibonacci, but sum the three last elements from sequence. References:
+
+https://brilliant.org/wiki/tribonacci-sequence/
+http://mathworld.wolfram.com/TribonacciNumber.html
+https://math.stackexchange.com/questions/2280243/tribonacci-sequence-term","['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/382?src=pr&el=h1) Report\n> Merging [#382](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/382?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/dc1047df725117c411959692a1ab538f65342b2e?src=pr&el=desc) will **not change** coverage.\n> The diff coverage is `100%`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/382/graphs/tree.svg?width=650&token=2jOOUBhvZL&height=150&src=pr)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/382?src=pr&el=tree)\n\n```diff\n@@          Coverage Diff          @@\n##           master   #382   +/-   ##\n=====================================\n  Coverage     100%   100%           \n=====================================\n  Files         149    151    +2     \n  Lines        2612   2626   +14     \n  Branches      434    435    +1     \n=====================================\n+ Hits         2612   2626   +14\n```\n\n\n| [Impacted Files](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/382?src=pr&el=tree) | Coverage Δ | |\n|---|---|---|\n| [src/algorithms/math/tribonacci/tribonacciNth.js](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/382/diff?src=pr&el=tree#diff-c3JjL2FsZ29yaXRobXMvbWF0aC90cmlib25hY2NpL3RyaWJvbmFjY2lOdGguanM=) | `100% <100%> (ø)` | |\n| [src/algorithms/math/tribonacci/tribonacci.js](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/382/diff?src=pr&el=tree#diff-c3JjL2FsZ29yaXRobXMvbWF0aC90cmlib25hY2NpL3RyaWJvbmFjY2kuanM=) | `100% <100%> (ø)` | |\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/382?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/382?src=pr&el=footer). Last update [dc1047d...7119baa](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/382?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n']"
+188,381,New branch playing with comments,[],open,I am playing with comments to get final results about this,[]
+189,380,Bucket sort,[],open,"adding Bucket sort, the algorithm works for the 'sort.testSort()' test, but i'm not sure what the 'testSortWithCustomComparator' and the rest of those mean, or how to implement them. So please feel free to update the sort to work with those. ",[]
+190,379,:bug: Fix: #378 Removing Redundant Condition,[],open,"The code will now throw error if someone tries to index values less than 1.
+Also code still works for n == 1 case.","['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/379?src=pr&el=h1) Report\n> Merging [#379](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/379?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/dc1047df725117c411959692a1ab538f65342b2e?src=pr&el=desc) will **decrease** coverage by `0.07%`.\n> The diff coverage is `50%`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/379/graphs/tree.svg?width=650&token=2jOOUBhvZL&height=150&src=pr)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/379?src=pr&el=tree)\n\n```diff\n@@            Coverage Diff             @@\n##           master     #379      +/-   ##\n==========================================\n- Coverage     100%   99.92%   -0.08%     \n==========================================\n  Files         149      149              \n  Lines        2612     2612              \n  Branches      434      434              \n==========================================\n- Hits         2612     2610       -2     \n- Misses          0        2       +2\n```\n\n\n| [Impacted Files](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/379?src=pr&el=tree) | Coverage Δ | |\n|---|---|---|\n| [src/algorithms/math/fibonacci/fibonacciNth.js](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/379/diff?src=pr&el=tree#diff-c3JjL2FsZ29yaXRobXMvbWF0aC9maWJvbmFjY2kvZmlib25hY2NpTnRoLmpz) | `90% <50%> (-10%)` | :arrow_down: |\n| [src/algorithms/math/fibonacci/fibonacci.js](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/379/diff?src=pr&el=tree#diff-c3JjL2FsZ29yaXRobXMvbWF0aC9maWJvbmFjY2kvZmlib25hY2NpLmpz) | `91.66% <50%> (-8.34%)` | :arrow_down: |\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/379?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/379?src=pr&el=footer). Last update [dc1047d...bf504fc](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/379?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n', '# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/379?src=pr&el=h1) Report\n> Merging [#379](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/379?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/dc1047df725117c411959692a1ab538f65342b2e?src=pr&el=desc) will **not change** coverage.\n> The diff coverage is `100%`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/379/graphs/tree.svg?width=650&token=2jOOUBhvZL&height=150&src=pr)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/379?src=pr&el=tree)\n\n```diff\n@@          Coverage Diff          @@\n##           master   #379   +/-   ##\n=====================================\n  Coverage     100%   100%           \n=====================================\n  Files         149    149           \n  Lines        2612   2612           \n  Branches      434    434           \n=====================================\n  Hits         2612   2612\n```\n\n\n| [Impacted Files](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/379?src=pr&el=tree) | Coverage Δ | |\n|---|---|---|\n| [src/algorithms/math/fibonacci/fibonacciNth.js](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/379/diff?src=pr&el=tree#diff-c3JjL2FsZ29yaXRobXMvbWF0aC9maWJvbmFjY2kvZmlib25hY2NpTnRoLmpz) | `100% <100%> (ø)` | :arrow_up: |\n| [src/algorithms/math/fibonacci/fibonacci.js](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/379/diff?src=pr&el=tree#diff-c3JjL2FsZ29yaXRobXMvbWF0aC9maWJvbmFjY2kvZmlib25hY2NpLmpz) | `100% <100%> (ø)` | :arrow_up: |\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/379?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/379?src=pr&el=footer). Last update [dc1047d...f547721](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/379?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n', 'Also added the tests']"
+191,378,Redundant condition,[],open,"https://github.com/trekhleb/javascript-algorithms/blob/dc1047df725117c411959692a1ab538f65342b2e/src/algorithms/math/fibonacci/fibonacci.js#L13
+
+This condition is redundant, the while condition covers the case where `n` equals `1`.
+
+p.s- I will exploit this opportunity to say thank you for this repository.","['Actually, if u want to be bolt prof u better check `n` for being greater than or equal to `1`.', 'I created a PR that removes that condition: https://github.com/trekhleb/javascript-algorithms/pull/400\r\n\r\n']"
+192,377,Fixed balancing of Avl tree after insertion or deletion,[],open,,[]
+193,374,Logo Design,[],open,"Greeting Sir!
+I'm a logo designer and can design logo for your project. As visual appearance effect a lot to project so having a unique logo for your project will effect people engagement in your project.
+If you want a logo for project,you can inform me and open an issue about logo requirement.",[]
+194,373,fix fake code error of traversal,[],open,binary-search-tree fake code error.,"['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/373?src=pr&el=h1) Report\n> Merging [#373](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/373?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/dc1047df725117c411959692a1ab538f65342b2e?src=pr&el=desc) will **not change** coverage.\n> The diff coverage is `n/a`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/373/graphs/tree.svg?width=650&token=2jOOUBhvZL&height=150&src=pr)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/373?src=pr&el=tree)\n\n```diff\n@@          Coverage Diff          @@\n##           master   #373   +/-   ##\n=====================================\n  Coverage     100%   100%           \n=====================================\n  Files         149    149           \n  Lines        2612   2612           \n  Branches      434    434           \n=====================================\n  Hits         2612   2612\n```\n\n\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/373?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/373?src=pr&el=footer). Last update [dc1047d...e977158](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/373?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n']"
+195,372,Algorithm for conversion of binary to decimal and vice versa,[],open,"Hi, good to see javascript data-structures and algorithms stacked at one place. So thought of contributing to it.
+I added algorithms for conversion of a binary number to decimal number and vice versa in algorithms/math/binary directory. Let me know if it sounds good.","['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/372?src=pr&el=h1) Report\n> Merging [#372](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/372?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/dc1047df725117c411959692a1ab538f65342b2e?src=pr&el=desc) will **not change** coverage.\n> The diff coverage is `100%`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/372/graphs/tree.svg?width=650&token=2jOOUBhvZL&height=150&src=pr)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/372?src=pr&el=tree)\n\n```diff\n@@          Coverage Diff          @@\n##           master   #372   +/-   ##\n=====================================\n  Coverage     100%   100%           \n=====================================\n  Files         149    151    +2     \n  Lines        2612   2637   +25     \n  Branches      434    438    +4     \n=====================================\n+ Hits         2612   2637   +25\n```\n\n\n| [Impacted Files](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/372?src=pr&el=tree) | Coverage Δ | |\n|---|---|---|\n| [src/algorithms/math/binary/decimalToBinary.js](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/372/diff?src=pr&el=tree#diff-c3JjL2FsZ29yaXRobXMvbWF0aC9iaW5hcnkvZGVjaW1hbFRvQmluYXJ5Lmpz) | `100% <100%> (ø)` | |\n| [src/algorithms/math/binary/binaryToDecimal.js](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/372/diff?src=pr&el=tree#diff-c3JjL2FsZ29yaXRobXMvbWF0aC9iaW5hcnkvYmluYXJ5VG9EZWNpbWFsLmpz) | `100% <100%> (ø)` | |\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/372?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/372?src=pr&el=footer). Last update [dc1047d...46be0ac](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/372?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n', 'Hi @trekhleb,\r\nAny updates or suggestions on this?']"
+196,369,"replaceChild in BinaryTreeNode, the replacementNode's parent is incorrect",[],open,"    const leftNode = new BinaryTreeNode(1);
+    const rightNode = new BinaryTreeNode(3);
+    const rootNode = new BinaryTreeNode(2);
+    rootNode
+      .setLeft(leftNode)
+      .setRight(rightNode);
+    expect(rootNode.traverseInOrder()).toEqual([1, 2, 3]);
+
+    const replacementNode = new BinaryTreeNode(5);
+    rightNode.setRight(replacementNode);
+    expect(rootNode.traverseInOrder()).toEqual([1, 2, 3, 5]);
+
+    expect(rootNode.replaceChild(rootNode.right, rootNode.right.right)).toBe(true);
+
+    expect(rootNode.right.parent.value).toBe(2); // Expected: 2, but Received: 3
+
+It's better to set replacementNode's parent to this.left/this.right in replaceChild method of BinaryTreeNode",[]
+197,368,Adding Luhn algorithm,[],open,,"['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/368?src=pr&el=h1) Report\n> Merging [#368](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/368?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/dc1047df725117c411959692a1ab538f65342b2e?src=pr&el=desc) will **not change** coverage.\n> The diff coverage is `100%`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/368/graphs/tree.svg?width=650&token=2jOOUBhvZL&height=150&src=pr)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/368?src=pr&el=tree)\n\n```diff\n@@          Coverage Diff          @@\n##           master   #368   +/-   ##\n=====================================\n  Coverage     100%   100%           \n=====================================\n  Files         149    150    +1     \n  Lines        2612   2625   +13     \n  Branches      434    435    +1     \n=====================================\n+ Hits         2612   2625   +13\n```\n\n\n| [Impacted Files](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/368?src=pr&el=tree) | Coverage Δ | |\n|---|---|---|\n| [...thms/uncategorized/luhn-algorithm/luhnAlgorithm.js](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/368/diff?src=pr&el=tree#diff-c3JjL2FsZ29yaXRobXMvdW5jYXRlZ29yaXplZC9sdWhuLWFsZ29yaXRobS9sdWhuQWxnb3JpdGhtLmpz) | `100% <100%> (ø)` | |\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/368?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/368?src=pr&el=footer). Last update [dc1047d...a9f92a2](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/368?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n', 'Any updates here?  @trekhleb ']"
+198,366,Dev,[],open,【Add】 Longest non-repeating substring,[]
+199,365,Update README.ja-JP.md,[],open,"In Japanese, the ""連結リスト"" seems to be more general than the ""リンクされたリスト"".
+Furthermore,  the ""双方向リスト"" seems to be more general than the ""二重リンクリスト"".
+https://ja.wikipedia.org/wiki/%E9%80%A3%E7%B5%90%E3%83%AA%E3%82%B9%E3%83%88","['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/365?src=pr&el=h1) Report\n> Merging [#365](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/365?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/dc1047df725117c411959692a1ab538f65342b2e?src=pr&el=desc) will **not change** coverage.\n> The diff coverage is `n/a`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/365/graphs/tree.svg?width=650&token=2jOOUBhvZL&height=150&src=pr)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/365?src=pr&el=tree)\n\n```diff\n@@          Coverage Diff          @@\n##           master   #365   +/-   ##\n=====================================\n  Coverage     100%   100%           \n=====================================\n  Files         149    149           \n  Lines        2612   2612           \n  Branches      434    434           \n=====================================\n  Hits         2612   2612\n```\n\n\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/365?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/365?src=pr&el=footer). Last update [dc1047d...e6d09c8](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/365?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n']"
+200,364,Update README.ja-JP.md,[],open,"リンクリストより連結リストの方が名称が一般的だと思われます。
+The ""連結テスト"" seems to be more general than the ""リンクリスト"".
+https://ja.wikipedia.org/wiki/%E9%80%A3%E7%B5%90%E3%83%AA%E3%82%B9%E3%83%88","['# [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/364?src=pr&el=h1) Report\n> Merging [#364](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/364?src=pr&el=desc) into [master](https://codecov.io/gh/trekhleb/javascript-algorithms/commit/94abfec91d111c936670c37d1fdc8349e05ade92?src=pr&el=desc) will **not change** coverage.\n> The diff coverage is `n/a`.\n\n[![Impacted file tree graph](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/364/graphs/tree.svg?width=650&token=2jOOUBhvZL&height=150&src=pr)](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/364?src=pr&el=tree)\n\n```diff\n@@          Coverage Diff          @@\n##           master   #364   +/-   ##\n=====================================\n  Coverage     100%   100%           \n=====================================\n  Files         149    149           \n  Lines        2612   2612           \n  Branches      434    434           \n=====================================\n  Hits         2612   2612\n```\n\n\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/364?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/364?src=pr&el=footer). Last update [94abfec...506c8f7](https://codecov.io/gh/trekhleb/javascript-algorithms/pull/364?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n']"
